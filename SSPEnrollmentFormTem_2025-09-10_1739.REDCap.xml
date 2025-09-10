@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="SSP Enrollment Form - Template for Share" AsOfDateTime="2025-09-10T17:39:36" CreationDateTime="2025-09-10T17:39:36" SourceSystem="REDCap" SourceSystemVersion="14.0.12">
+<Study OID="Project.SSPEnrollmentFormTemplateForSh">
+<GlobalVariables>
+	<StudyName>SSP Enrollment Form - Template for Share</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "SSP Enrollment Form - Template for Share".</StudyDescription>
+	<ProtocolName>SSP Enrollment Form - Template for Share</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField>id_code</redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>1</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField>id_code</redcap:OrderRecordsByField>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>4</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:SurveyAuthEnabled>0</redcap:SurveyAuthEnabled>
+	<redcap:SurveyAuthField1></redcap:SurveyAuthField1>
+	<redcap:SurveyAuthEvent1></redcap:SurveyAuthEvent1>
+	<redcap:SurveyAuthField2></redcap:SurveyAuthField2>
+	<redcap:SurveyAuthEvent2></redcap:SurveyAuthEvent2>
+	<redcap:SurveyAuthField3></redcap:SurveyAuthField3>
+	<redcap:SurveyAuthEvent3></redcap:SurveyAuthEvent3>
+	<redcap:SurveyAuthMinFields></redcap:SurveyAuthMinFields>
+	<redcap:SurveyAuthApplyAllSurveys>1</redcap:SurveyAuthApplyAllSurveys>
+	<redcap:SurveyAuthCustomMessage></redcap:SurveyAuthCustomMessage>
+	<redcap:SurveyAuthFailLimit></redcap:SurveyAuthFailLimit>
+	<redcap:SurveyAuthFailWindow></redcap:SurveyAuthFailWindow>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText>REDCap Secure Messaging</redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="miami_idea_exchange_enrollment_form" title="Miami IDEA Exchange - Enrollment Form" instructions="" offline_instructions="" acknowledgement="" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="1" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" theme_text_buttons="000000" theme_bg_page="005030" theme_text_title="ffffff" theme_bg_title="f47321" theme_text_sectionheader="ffffff" theme_bg_sectionheader="3e921a" theme_text_question="000000" theme_bg_question="e8fce1" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="1" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+	</redcap:SurveysGroup>
+	<redcap:UserRolesGroup>
+		<redcap:UserRoles role_name="Administrator" unique_role_name="U-379YP84TWR" lock_record="1" lock_record_multiform="1" lock_record_customize="1" data_export_tool="" data_export_instruments="[miami_idea_exchange_enrollment_form,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[miami_idea_exchange_enrollment_form,3]" api_export="1" api_import="1" api_modules="0" mobile_app="1" mobile_app_download_data="1" record_create="1" record_rename="1" record_delete="1" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="1" random_dashboard="1" random_perform="1" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Data Coordinator" unique_role_name="U-86834CARF3" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[miami_idea_exchange_enrollment_form,0]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="0" data_access_groups="1" graphical="0" reports="1" design="1" alerts="1" calendar="1" data_entry="[enrollment_error_log,1][quarterly_error_log,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="0" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="0" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Data Entry" unique_role_name="U-1217W388C7" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[miami_idea_exchange_enrollment_form,0]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="0" double_data="0" user_rights="0" data_access_groups="0" graphical="0" reports="1" design="0" alerts="0" calendar="0" data_entry="[enrollment_error_log,1][quarterly_error_log,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="0" record_delete="0" dts="0" participants="0" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="0" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Investigator" unique_role_name="U-381NCFNJ39" lock_record="1" lock_record_multiform="0" lock_record_customize="1" data_export_tool="" data_export_instruments="[miami_idea_exchange_enrollment_form,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[miami_idea_exchange_enrollment_form,1]" api_export="1" api_import="1" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="0" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="1" random_dashboard="1" random_perform="1" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Project Staff" unique_role_name="U-529YTA9RNH" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[miami_idea_exchange_enrollment_form,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="0" reports="0" design="0" alerts="0" calendar="1" data_entry="[enrollment_error_log,1][quarterly_error_log,1][miami_idea_exchange_enrollment_form,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="0" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Site Coordinator" unique_role_name="U-552MEMEX7C" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[miami_idea_exchange_enrollment_form,0]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="0" reports="1" design="0" alerts="0" calendar="1" data_entry="" api_export="1" api_import="1" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="0" dts="0" participants="1" data_quality_design="0" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Statistician" unique_role_name="U-328CCLN7CX" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[miami_idea_exchange_enrollment_form,0]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="1" data_entry="[enrollment_error_log,1][quarterly_error_log,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="0" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="1" random_dashboard="1" random_perform="1" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+	</redcap:UserRolesGroup>
+	<redcap:ReportsGroup>
+		<redcap:Reports title="ID Code Look-Up" unique_report_name="R-968H7YA9EL" report_order="1" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,id_code,unique_idcode,name" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="f692c99d949da24597560366512ac7d0e248f657"/>
+		<redcap:Reports title="All Enrollment Data - Since Project Start - Do Not Modify" unique_report_name="R-5334A34T8E" report_order="2" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,gender,gender_other,is_transgender,unique_idcode,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="baa097a0a9a78d9e3ca5d351a714a430b9b16080"/>
+		<redcap:Reports title="All Enrollment Data - Since Project Start - By Location" unique_report_name="R-845XFKY4FK" report_order="3" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,gender,gender_other,is_transgender,unique_idcode,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="ecd23d23c92996695d615c32a0196fc87bd0b545"/>
+		<redcap:Reports title="All Enrollment Data - 2024 Annual Report" unique_report_name="R-838DYRJ3WN" report_order="4" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2024-01-01&quot;) AND ([date] &lt;= &quot;2024-12-31&quot;)" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2024-01-01&quot;) AND ([date] &lt;= &quot;2024-12-31&quot;)" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,unique_idcode,gender,gender_other,is_transgender,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_brand,hiv_brand_other,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,days_since_enrolllment,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="13938efb35605f5fe15e1f27940f7b861d75fd7c"/>
+		<redcap:Reports title="All Enrollment Data - 2024 FOCUS Final Report" unique_report_name="R-318HALDXWK" report_order="5" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2022-07-01&quot;) AND ([date] &lt;= &quot;2024-10-31&quot;)" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2022-07-01&quot;) AND ([date] &lt;= &quot;2024-10-31&quot;)" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,unique_idcode,gender,gender_other,is_transgender,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_brand,hiv_brand_other,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,days_since_enrolllment,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="8626f8715fb6a80322e4d53b39e8f3b7ae26ec7d"/>
+		<redcap:Reports title="All Enrollment Data - 1/1/2022 to 9/30/2024" unique_report_name="R-211KH9RCWL" report_order="6" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2022-01-01&quot;) AND ([date] &lt;= &quot;2024-09-30&quot;)" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2022-01-01&quot;) AND ([date] &lt;= &quot;2024-09-30&quot;)" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,unique_idcode,gender,gender_other,is_transgender,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_brand,hiv_brand_other,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,days_since_enrolllment,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="fd830ec1e9b8bf8aec3430277ccf7a1d0fed87a1"/>
+		<redcap:Reports title="All Enrollment Data - 01012024-12312024" unique_report_name="R-79143HKCT4" report_order="7" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2024-01-01&quot;) AND ([date] &lt;= &quot;2024-12-31&quot;)" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2024-01-01&quot;) AND ([date] &lt;= &quot;2024-12-31&quot;)" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,unique_idcode,gender,gender_other,is_transgender,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_brand,hiv_brand_other,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,days_since_enrolllment,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="e409a259ce9cf43ed4405fdf547e5ea2d96ea7ea"/>
+		<redcap:Reports title="All Enrollment Data - 10/1/2023 to 9/30/2024" unique_report_name="R-4499WETH9Y" report_order="8" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2023-10-01&quot;) AND ([date] &lt;= &quot;2024-09-30&quot;)" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2023-10-01&quot;) AND ([date] &lt;= &quot;2024-09-30&quot;)" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,unique_idcode,gender,gender_other,is_transgender,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_brand,hiv_brand_other,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,days_since_enrolllment,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="8e255cb8c7af3bbf52ae8adab4a920989279e8f5"/>
+		<redcap:Reports title="All Enrollment Data - 2024 FOCUS Renewal Application" unique_report_name="R-864NRWM3TY" report_order="9" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2022-07-01&quot;) AND ([date] &lt;= &quot;2024-10-31&quot;)" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2022-07-01&quot;) AND ([date] &lt;= &quot;2024-10-31&quot;)" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,unique_idcode,gender,gender_other,is_transgender,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_brand,hiv_brand_other,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,days_since_enrolllment,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="61492d54c2fa21f1b555c64e72569b784ce94ebb"/>
+		<redcap:Reports title="All Enrollment Data - 2024 FOCUS Final Report - Positives" unique_report_name="R-825NHXFFPE" report_order="10" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2022-07-01&quot;) AND ([date] &lt;= &quot;2024-07-31&quot;) AND ([hiv_test_today_result] = &quot;2&quot;)" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2022-07-01&quot;) AND ([date] &lt;= &quot;2024-07-31&quot;) AND ([hiv_test_today_result] = &quot;2&quot;)" redcap_reports_fields="id_code,date,hiv_test_today_result" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="acf25a19114c5d3909b642514ec432e0995512e8"/>
+		<redcap:Reports title="All Enrollment Data - Monthly - Update w/ Dates" unique_report_name="R-535PWHT93Y" report_order="11" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2025-02-01&quot;) AND ([date] &lt;= &quot;2025-02-28&quot;)" filter_type="EVENT" dynamic_filter1="is_mobile" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2025-02-01&quot;) AND ([date] &lt;= &quot;2025-02-28&quot;)" redcap_reports_fields="record_id,id_code,date,date_enroll_month,date_enroll_year,is_mobile,is_mobile_where,language,language_other,initials_pt,unique_initials_pt,initials_mother,unique_initials_mother,birth_month,unique_birth_month,birth_year,simulated_dob,race,unique_race,is_hispanic,sex_at_birth,unique_sex_at_birth,gender,gender_other,is_transgender,unique_idcode,name,zipcode,sexual_orientation,relationship,education,employment,is_homeless,living_situation,noninject_drug_thirty,noninjection_drugs_other,injection_drugs,injection_drugs_other,age_first_inject,inject_amount_daily,reused_thirty,shared_thirty,has_od,sex_exchange_thirty,hiv_test_ever,hiv_test_prior_result,hiv_test_tx,hiv_test_today,hiv_test_today_brand,hiv_test_today_result,hcv_test_ever,hcv_test_prior_result,hcv_test_tx,hcv_test_today,hcv_test_today_result,hcv_rna_offered,hcv_rna_accepted,hcv_rna_results,hcv_rna_viral_load,syphillis_test_ever,syphillis_result_prior,syphillis_agree_today,syphillis_result_today,covid_vaccine,hep_a_vaccine,hep_b_vaccine,hear_about_exchange,hear_about_other,holding_meds,holding_meds_locker,interview_notes,completed_by,completed_by_other,miami_idea_exchange_enrollment_form_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="cfdf4ac9975d04b15219eb718799c45b3f531bf0"/>
+		<redcap:Reports title="Recent Testing Look-Up" unique_report_name="R-899LDYDKK3" report_order="12" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="DESC" orderby_field2="id_code" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="([hiv_test_today_result] != &quot;&quot; OR [hcv_test_today_result] != &quot;&quot; OR [syphillis_result_today] != &quot;&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([hiv_test_today_result] != &quot;&quot; OR [hcv_test_today_result] != &quot;&quot; OR [syphillis_result_today] != &quot;&quot;)" redcap_reports_fields="id_code,date,days_since_enrolllment,hiv_test_prior_result,hiv_test_today_result,hcv_test_prior_result,hcv_test_today_result,syphillis_result_prior,syphillis_result_today" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="0539fbe69d8964288640009aea9d714fece91294"/>
+		<redcap:Reports title="ChuengTeresa_DataRequest_11212024" unique_report_name="R-727498TXFD" report_order="13" user_access="ALL" user_edit_access="ALL" description="&lt;p&gt;Women enrolled in IDEA between March 2023-March 2024.&lt;/p&gt;" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="DESC" orderby_field2="id_code" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="([hiv_test_today_result] != &quot;&quot; OR [hcv_test_today_result] != &quot;&quot; OR [syphillis_result_today] != &quot;&quot;) AND ([sex_at_birth] = &quot;2&quot;) AND ([date] &gt;= &quot;2023-03-01&quot;) AND ([date] &lt;= &quot;2024-03-31&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([hiv_test_today_result] != &quot;&quot; OR [hcv_test_today_result] != &quot;&quot; OR [syphillis_result_today] != &quot;&quot;) AND ([sex_at_birth] = &quot;2&quot;) AND ([date] &gt;= &quot;2023-03-01&quot;) AND ([date] &lt;= &quot;2024-03-31&quot;)" redcap_reports_fields="id_code,unique_idcode,sex_at_birth,gender,is_transgender,date,hiv_test_prior_result,hiv_test_today_result,syphillis_result_today" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="5c5d7d8061c74f2f6c10c6b458e882d9f75b7c52"/>
+		<redcap:Reports title="Weekly Testing Numbers by Staff" unique_report_name="R-282TXF88LJ" report_order="14" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="DESC" orderby_field2="id_code" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="([hiv_test_today_result] != &quot;&quot; OR [hcv_test_today_result] != &quot;&quot; OR [syphillis_result_today] != &quot;&quot;) AND ([date] &gt;= &quot;2024-11-04&quot;) AND ([date] &lt;= &quot;2024-11-10&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([hiv_test_today_result] != &quot;&quot; OR [hcv_test_today_result] != &quot;&quot; OR [syphillis_result_today] != &quot;&quot;) AND ([date] &gt;= &quot;2024-11-04&quot;) AND ([date] &lt;= &quot;2024-11-10&quot;)" redcap_reports_fields="id_code,date,days_since_enrolllment,hiv_test_today_result,hcv_test_today_result,syphillis_result_today,completed_by,completed_by_other" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="1ee6729551d9b34d096f5e26fc7f254bf07caae2"/>
+		<redcap:Reports title="All Enrollment &amp; Testing Info" unique_report_name="R-515DTC8XJY" report_order="15" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="DESC" orderby_field2="id_code" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="id_code,date,hiv_test_prior_result,hiv_test_today_result,hcv_test_prior_result,hcv_test_today_result,syphillis_result_today" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="9451edc80846810d275274a043747af050f06b93"/>
+		<redcap:Reports title="For Shelby: All Enrollment, Testing &amp; Linkage Info" unique_report_name="R-493Y3TAKYA" report_order="16" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="DESC" orderby_field2="id_code" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="id_code,date,hiv_test_prior_result,hiv_test_today_result,hiv_test_today_ltc,hcv_test_prior_result,hcv_test_today_result,hcv_test_today_ltc" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="cc5e9b7ff3e930e3c3b79b7916e56bf6af0b80e8"/>
+		<redcap:Reports title="FOCUS Quarterly Data Uploads" unique_report_name="R-4454AMF7FA" report_order="17" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="DESC" orderby_field2="id_code" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="id_code,date,hiv_test_prior_result,hiv_test_today_result,hiv_test_today_ltc,hcv_test_prior_result,hcv_test_today_result,hcv_test_today_ltc,birth_month,birth_year,race,is_hispanic,gender" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="0d044d1a4b4410fca97a524934247aaac31d711d"/>
+		<redcap:Reports title="All Enrollment &amp; Testing Info - With Sex Exchange" unique_report_name="R-7784XNNKHT" report_order="18" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="DESC" orderby_field2="id_code" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="id_code,date,hiv_test_today_result,hcv_test_today_result,syphillis_result_today,sex_exchange_thirty,sex_at_birth,gender" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="9d09f741910cc75dbbfbab4824d88afa99ec3e7e"/>
+		<redcap:Reports title="All Enrollment &amp; Testing Info - August 2024" unique_report_name="R-232MAJML3N" report_order="19" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="DESC" orderby_field2="id_code" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="([date] &gt;= &quot;2024-08-01&quot;) AND ([date] &lt;= &quot;2024-08-31&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([date] &gt;= &quot;2024-08-01&quot;) AND ([date] &lt;= &quot;2024-08-31&quot;)" redcap_reports_fields="id_code,date,days_since_enrolllment,hiv_test_today_result,hcv_test_today_result,syphillis_result_today" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="454732e6f841aab759aa831d448e6b1d0de1310c"/>
+		<redcap:Reports title="Brand of Testing" unique_report_name="R-221KM3R79F" report_order="20" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,hiv_test_today_brand" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="4f44b1f33af9c6c8454e9efda6004f3f838b6293"/>
+		<redcap:Reports title="Non-Injection Drug Users" unique_report_name="R-796CPWNRET" report_order="21" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([injection_drugs(0)] = &quot;1&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([injection_drugs(0)] = &quot;1&quot;)" redcap_reports_fields="record_id,id_code,injection_drugs,noninject_drug_thirty,age_first_inject" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="93de7690a00b961a17914a02afdc7e2f3096744f"/>
+		<redcap:Reports title="Upload - October 2, 2024" unique_report_name="R-362YMXPYMA" report_order="22" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,id_code,noninject_drug_thirty,injection_drugs,sex_at_birth,gender,is_transgender" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="42759f28fbb0727a29ded74b188b652ef0ea20fa"/>
+		<redcap:Reports title="Levi Data Request - Capstone Project" unique_report_name="R-471J7RKRDW" report_order="23" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="date" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="date_enroll_month,date_enroll_year,birth_month,birth_year,race,is_hispanic,sex_at_birth,gender,is_transgender,education,noninject_drug_thirty,injection_drugs" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="681a48a59e0190643e5d4a6343afa2568b442c38"/>
+		<redcap:Reports title="Cross-Check with T-SHARP" unique_report_name="R-468YKTA398" report_order="24" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="(
+     [id_code] = &quot;607&quot; OR [id_code] = &quot;1324&quot; OR 
+    [id_code] = &quot;1641&quot; OR [id_code] = &quot;1663&quot; OR [id_code] = &quot;1972&quot; OR [id_code] = &quot;1981&quot; OR 
+    [id_code] = &quot;2090&quot; OR [id_code] = &quot;2204&quot; OR [id_code] = &quot;2209&quot; OR [id_code] = &quot;2267&quot; OR 
+    [id_code] = &quot;2356&quot; OR [id_code] = &quot;2381&quot; OR [id_code] = &quot;2388&quot; OR [id_code] = &quot;2402&quot; OR 
+    [id_code] = &quot;2456&quot; OR [id_code] = &quot;2495&quot; OR [id_code] = &quot;2501&quot; OR [id_code] = &quot;2509&quot; OR 
+    [id_code] = &quot;2519&quot; OR [id_code] = &quot;2521&quot; OR [id_code] = &quot;2545&quot; OR [id_code] = &quot;2546&quot; OR 
+    [id_code] = &quot;2596&quot; OR [id_code] = &quot;2615&quot; OR [id_code] = &quot;2634&quot; OR [id_code] = &quot;3773&quot; OR 
+    [id_code] = &quot;4927&quot; OR [id_code] = &quot;4982&quot;
+)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="(
+     [id_code] = &quot;607&quot; OR [id_code] = &quot;1324&quot; OR 
+    [id_code] = &quot;1641&quot; OR [id_code] = &quot;1663&quot; OR [id_code] = &quot;1972&quot; OR [id_code] = &quot;1981&quot; OR 
+    [id_code] = &quot;2090&quot; OR [id_code] = &quot;2204&quot; OR [id_code] = &quot;2209&quot; OR [id_code] = &quot;2267&quot; OR 
+    [id_code] = &quot;2356&quot; OR [id_code] = &quot;2381&quot; OR [id_code] = &quot;2388&quot; OR [id_code] = &quot;2402&quot; OR 
+    [id_code] = &quot;2456&quot; OR [id_code] = &quot;2495&quot; OR [id_code] = &quot;2501&quot; OR [id_code] = &quot;2509&quot; OR 
+    [id_code] = &quot;2519&quot; OR [id_code] = &quot;2521&quot; OR [id_code] = &quot;2545&quot; OR [id_code] = &quot;2546&quot; OR 
+    [id_code] = &quot;2596&quot; OR [id_code] = &quot;2615&quot; OR [id_code] = &quot;2634&quot; OR [id_code] = &quot;3773&quot; OR 
+    [id_code] = &quot;4927&quot; OR [id_code] = &quot;4982&quot;
+)" redcap_reports_fields="id_code,unique_idcode" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="b33e36e3d57212ed72ed93e01b325db8044b0d53"/>
+		<redcap:Reports title="Cross-Project Piping Check" unique_report_name="R-818MNFCD4K" report_order="25" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="1" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,id_code,hiv_test_today_result,hcv_test_today_result" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="42ce29bb6d59c4e60bb4d1eea264cc7218e6d54c"/>
+	</redcap:ReportsGroup>
+	<redcap:RecordDashboardsGroup>
+		<redcap:RecordDashboards title="Fixed Site" description="" filter_logic="[is_mobile] = &#039;0&#039;" orientation="H" group_by="event" selected_forms_events="" arm="" sort_field_name="id_code" sort_order="ASC"/>
+		<redcap:RecordDashboards title="Mobile Unit" description="Mobile Unit Enrollment Site" filter_logic="[is_mobile] = &#039;1&#039;" orientation="H" group_by="event" selected_forms_events="" arm="" sort_field_name="id_code" sort_order="ASC"/>
+	</redcap:RecordDashboardsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.SSPEnrollmentFormTemplateForSh_2025-09-10_1739" Name="SSP Enrollment Form - Template for Share" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.miami_idea_exchange_enrollment_form" Name="Miami IDEA Exchange - Enrollment Form" Repeating="No" redcap:FormName="miami_idea_exchange_enrollment_form">
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.noninject_drug_thirty___0" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.noninjection_drugs_other" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.covid_vaccine" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.hep_a_vaccine" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.hiv_test_ever" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.hiv_test_prior_result" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.hear_about_exchange___1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.hear_about_other" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="miami_idea_exchange_enrollment_form.miami_idea_exchange_enrollment_form_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.record_id" Name="Miami IDEA Exchange - Enrollment Form" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="header_image" Mandatory="No" redcap:Variable="header_image"/>
+		<ItemRef ItemOID="id_code" Mandatory="Yes" redcap:Variable="id_code"/>
+		<ItemRef ItemOID="date" Mandatory="Yes" redcap:Variable="date"/>
+		<ItemRef ItemOID="date_enroll_month" Mandatory="No" redcap:Variable="date_enroll_month"/>
+		<ItemRef ItemOID="date_enroll_year" Mandatory="No" redcap:Variable="date_enroll_year"/>
+		<ItemRef ItemOID="is_mobile" Mandatory="Yes" redcap:Variable="is_mobile"/>
+		<ItemRef ItemOID="is_mobile_where" Mandatory="Yes" redcap:Variable="is_mobile_where"/>
+		<ItemRef ItemOID="language" Mandatory="No" redcap:Variable="language"/>
+		<ItemRef ItemOID="language_other" Mandatory="No" redcap:Variable="language_other"/>
+		<ItemRef ItemOID="initials_pt" Mandatory="Yes" redcap:Variable="initials_pt"/>
+		<ItemRef ItemOID="unique_initials_pt" Mandatory="Yes" redcap:Variable="unique_initials_pt"/>
+		<ItemRef ItemOID="initials_mother" Mandatory="Yes" redcap:Variable="initials_mother"/>
+		<ItemRef ItemOID="unique_initials_mother" Mandatory="Yes" redcap:Variable="unique_initials_mother"/>
+		<ItemRef ItemOID="birth_month" Mandatory="Yes" redcap:Variable="birth_month"/>
+		<ItemRef ItemOID="unique_birth_month" Mandatory="No" redcap:Variable="unique_birth_month"/>
+		<ItemRef ItemOID="birth_year" Mandatory="Yes" redcap:Variable="birth_year"/>
+		<ItemRef ItemOID="simulated_dob" Mandatory="No" redcap:Variable="simulated_dob"/>
+		<ItemRef ItemOID="race" Mandatory="Yes" redcap:Variable="race"/>
+		<ItemRef ItemOID="unique_race" Mandatory="No" redcap:Variable="unique_race"/>
+		<ItemRef ItemOID="is_hispanic" Mandatory="Yes" redcap:Variable="is_hispanic"/>
+		<ItemRef ItemOID="sex_at_birth" Mandatory="Yes" redcap:Variable="sex_at_birth"/>
+		<ItemRef ItemOID="unique_sex_at_birth" Mandatory="No" redcap:Variable="unique_sex_at_birth"/>
+		<ItemRef ItemOID="unique_idcode" Mandatory="No" redcap:Variable="unique_idcode"/>
+		<ItemRef ItemOID="gender" Mandatory="Yes" redcap:Variable="gender"/>
+		<ItemRef ItemOID="gender_other" Mandatory="No" redcap:Variable="gender_other"/>
+		<ItemRef ItemOID="is_transgender" Mandatory="No" redcap:Variable="is_transgender"/>
+		<ItemRef ItemOID="name" Mandatory="No" redcap:Variable="name"/>
+		<ItemRef ItemOID="zipcode" Mandatory="Yes" redcap:Variable="zipcode"/>
+		<ItemRef ItemOID="sexual_orientation" Mandatory="No" redcap:Variable="sexual_orientation"/>
+		<ItemRef ItemOID="relationship" Mandatory="No" redcap:Variable="relationship"/>
+		<ItemRef ItemOID="education" Mandatory="No" redcap:Variable="education"/>
+		<ItemRef ItemOID="employment" Mandatory="No" redcap:Variable="employment"/>
+		<ItemRef ItemOID="is_homeless" Mandatory="No" redcap:Variable="is_homeless"/>
+		<ItemRef ItemOID="living_situation" Mandatory="No" redcap:Variable="living_situation"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.noninject_drug_thirty___0" Name="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;" Repeating="No">
+		<ItemRef ItemOID="noninject_drug_thirty___0" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___1" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___2" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___3" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___4" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___5" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___6" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___7" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___8" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___9" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___10" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___11" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___12" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___15" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___16" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty___13" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+		<ItemRef ItemOID="noninject_drug_thirty____999" Mandatory="No" redcap:Variable="noninject_drug_thirty"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.noninjection_drugs_other" Name="Miami IDEA Exchange - Enrollment Form" Repeating="No">
+		<ItemRef ItemOID="noninjection_drugs_other" Mandatory="No" redcap:Variable="noninjection_drugs_other"/>
+		<ItemRef ItemOID="injection_drugs___0" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___1" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___2" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___3" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___4" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___5" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___6" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___7" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___8" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___9" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___10" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___11" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___12" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___15" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___16" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs___13" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs____999" Mandatory="No" redcap:Variable="injection_drugs"/>
+		<ItemRef ItemOID="injection_drugs_other" Mandatory="No" redcap:Variable="injection_drugs_other"/>
+		<ItemRef ItemOID="age_first_inject" Mandatory="No" redcap:Variable="age_first_inject"/>
+		<ItemRef ItemOID="inject_amount_daily" Mandatory="No" redcap:Variable="inject_amount_daily"/>
+		<ItemRef ItemOID="reused_thirty" Mandatory="No" redcap:Variable="reused_thirty"/>
+		<ItemRef ItemOID="shared_thirty" Mandatory="No" redcap:Variable="shared_thirty"/>
+		<ItemRef ItemOID="has_od" Mandatory="No" redcap:Variable="has_od"/>
+		<ItemRef ItemOID="sex_exchange_thirty" Mandatory="No" redcap:Variable="sex_exchange_thirty"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.covid_vaccine" Name="Have you received the following vaccines?" Repeating="No">
+		<ItemRef ItemOID="covid_vaccine" Mandatory="No" redcap:Variable="covid_vaccine"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.hep_a_vaccine" Name="Miami IDEA Exchange - Enrollment Form" Repeating="No">
+		<ItemRef ItemOID="hep_a_vaccine" Mandatory="No" redcap:Variable="hep_a_vaccine"/>
+		<ItemRef ItemOID="hep_b_vaccine" Mandatory="No" redcap:Variable="hep_b_vaccine"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.hiv_test_ever" Name="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Testing Information&lt;/span&gt;&lt;/h4&gt;&lt;/div&gt;" Repeating="No">
+		<ItemRef ItemOID="hiv_test_ever" Mandatory="Yes" redcap:Variable="hiv_test_ever"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.hiv_test_prior_result" Name="Miami IDEA Exchange - Enrollment Form" Repeating="No">
+		<ItemRef ItemOID="hiv_test_prior_result" Mandatory="Yes" redcap:Variable="hiv_test_prior_result"/>
+		<ItemRef ItemOID="hiv_test_tx" Mandatory="No" redcap:Variable="hiv_test_tx"/>
+		<ItemRef ItemOID="hiv_test_today" Mandatory="Yes" redcap:Variable="hiv_test_today"/>
+		<ItemRef ItemOID="hiv_test_today_brand" Mandatory="No" redcap:Variable="hiv_test_today_brand"/>
+		<ItemRef ItemOID="hiv_test_brand" Mandatory="No" redcap:Variable="hiv_test_brand"/>
+		<ItemRef ItemOID="hiv_brand_other" Mandatory="No" redcap:Variable="hiv_brand_other"/>
+		<ItemRef ItemOID="hiv_test_today_result" Mandatory="Yes" redcap:Variable="hiv_test_today_result"/>
+		<ItemRef ItemOID="hiv_test_today_ltc" Mandatory="No" redcap:Variable="hiv_test_today_ltc"/>
+		<ItemRef ItemOID="hcv_test_ever" Mandatory="Yes" redcap:Variable="hcv_test_ever"/>
+		<ItemRef ItemOID="hcv_test_prior_result" Mandatory="Yes" redcap:Variable="hcv_test_prior_result"/>
+		<ItemRef ItemOID="hcv_test_tx" Mandatory="No" redcap:Variable="hcv_test_tx"/>
+		<ItemRef ItemOID="hcv_test_today" Mandatory="Yes" redcap:Variable="hcv_test_today"/>
+		<ItemRef ItemOID="hcv_test_today_result" Mandatory="Yes" redcap:Variable="hcv_test_today_result"/>
+		<ItemRef ItemOID="hcv_test_today_ltc" Mandatory="No" redcap:Variable="hcv_test_today_ltc"/>
+		<ItemRef ItemOID="hcv_rna_offered" Mandatory="Yes" redcap:Variable="hcv_rna_offered"/>
+		<ItemRef ItemOID="hcv_rna_accepted" Mandatory="Yes" redcap:Variable="hcv_rna_accepted"/>
+		<ItemRef ItemOID="hcv_rna_results" Mandatory="No" redcap:Variable="hcv_rna_results"/>
+		<ItemRef ItemOID="hcv_rna_viral_load" Mandatory="No" redcap:Variable="hcv_rna_viral_load"/>
+		<ItemRef ItemOID="syphillis_test_ever" Mandatory="No" redcap:Variable="syphillis_test_ever"/>
+		<ItemRef ItemOID="syphillis_result_prior" Mandatory="No" redcap:Variable="syphillis_result_prior"/>
+		<ItemRef ItemOID="syphillis_agree_today" Mandatory="No" redcap:Variable="syphillis_agree_today"/>
+		<ItemRef ItemOID="syphillis_result_today" Mandatory="No" redcap:Variable="syphillis_result_today"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.hear_about_exchange___1" Name="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Administrative Information&lt;/h4&gt;&lt;/div&gt;" Repeating="No">
+		<ItemRef ItemOID="hear_about_exchange___1" Mandatory="No" redcap:Variable="hear_about_exchange"/>
+		<ItemRef ItemOID="hear_about_exchange___2" Mandatory="No" redcap:Variable="hear_about_exchange"/>
+		<ItemRef ItemOID="hear_about_exchange___3" Mandatory="No" redcap:Variable="hear_about_exchange"/>
+		<ItemRef ItemOID="hear_about_exchange___4" Mandatory="No" redcap:Variable="hear_about_exchange"/>
+		<ItemRef ItemOID="hear_about_exchange___5" Mandatory="No" redcap:Variable="hear_about_exchange"/>
+		<ItemRef ItemOID="hear_about_exchange___6" Mandatory="No" redcap:Variable="hear_about_exchange"/>
+		<ItemRef ItemOID="hear_about_exchange____999" Mandatory="No" redcap:Variable="hear_about_exchange"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.hear_about_other" Name="Miami IDEA Exchange - Enrollment Form" Repeating="No">
+		<ItemRef ItemOID="hear_about_other" Mandatory="No" redcap:Variable="hear_about_other"/>
+		<ItemRef ItemOID="holding_meds" Mandatory="No" redcap:Variable="holding_meds"/>
+		<ItemRef ItemOID="holding_meds_locker" Mandatory="No" redcap:Variable="holding_meds_locker"/>
+		<ItemRef ItemOID="interview_notes" Mandatory="No" redcap:Variable="interview_notes"/>
+		<ItemRef ItemOID="completed_by" Mandatory="Yes" redcap:Variable="completed_by"/>
+		<ItemRef ItemOID="completed_by_other" Mandatory="No" redcap:Variable="completed_by_other"/>
+		<ItemRef ItemOID="id_info" Mandatory="No" redcap:Variable="id_info"/>
+		<ItemRef ItemOID="referral_grid" Mandatory="No" redcap:Variable="referral_grid"/>
+		<ItemRef ItemOID="hiv_no_prior_test_refer" Mandatory="No" redcap:Variable="hiv_no_prior_test_refer"/>
+		<ItemRef ItemOID="hiv_test_treat_refer" Mandatory="No" redcap:Variable="hiv_test_treat_refer"/>
+		<ItemRef ItemOID="hcv_no_prior_test_refer" Mandatory="No" redcap:Variable="hcv_no_prior_test_refer"/>
+		<ItemRef ItemOID="hcv_test_treat_refer" Mandatory="No" redcap:Variable="hcv_test_treat_refer"/>
+		<ItemRef ItemOID="hcv_test_today_result_rna" Mandatory="No" redcap:Variable="hcv_test_today_result_rna"/>
+		<ItemRef ItemOID="is_vaccinated_hep_a_refer" Mandatory="No" redcap:Variable="is_vaccinated_hep_a_refer"/>
+		<ItemRef ItemOID="is_vaccinated_hep_b_refer" Mandatory="No" redcap:Variable="is_vaccinated_hep_b_refer"/>
+		<ItemRef ItemOID="days_since_enrolllment" Mandatory="No" redcap:Variable="days_since_enrolllment"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="miami_idea_exchange_enrollment_form.miami_idea_exchange_enrollment_form_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="miami_idea_exchange_enrollment_form_complete" Mandatory="No" redcap:Variable="miami_idea_exchange_enrollment_form_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record Number</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="header_image" Name="header_image" DataType="text" Length="999" redcap:Variable="header_image" redcap:FieldType="descriptive">
+		<Question><TranslatedText>    </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;div class=&quot;container&quot; style=&quot;display: flex; align-items: center; justify-content: center;&quot;&gt; &lt;/div&gt; &lt;div class=&quot;container&quot; style=&quot;display: flex; align-items: center; justify-content: center;&quot;&gt;&lt;img class=&quot;image&quot; style=&quot;font-size: 20px; font-family: &#039;Times New&#039;; color: rgb(3, 95, 29); padding-left: 20px; display: block; margin-left: auto; margin-right: auto;&quot; src=&quot;https://med.miami.edu/-/media/millerschool/global-items/logos/19-106-miller-school-website-green.ashx?rev=b41e520f4d83424dae75417063818cdb&quot; height=&quot;50&quot;&gt;&lt;/div&gt; &lt;div class=&quot;container&quot; style=&quot;display: flex; align-items: center; justify-content: center;&quot;&gt; &lt;/div&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="id_code" Name="id_code" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="id_code" redcap:FieldType="text" redcap:TextValidationType="float" redcap:FieldNote="Must be numeric" redcap:RequiredField="y">
+		<Question><TranslatedText>ID Code</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date" Name="date" DataType="date" Length="999" redcap:Variable="date" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_enroll_month" Name="date_enroll_month" DataType="float" Length="999" redcap:Variable="date_enroll_month" redcap:FieldType="calc" redcap:Calculation="month([date])" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>@CALCTEXT Date Month</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_enroll_year" Name="date_enroll_year" DataType="float" Length="999" redcap:Variable="date_enroll_year" redcap:FieldType="calc" redcap:Calculation="year([date])" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>@CALCTEXT Date Year</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="is_mobile" Name="is_mobile" DataType="text" Length="1" redcap:Variable="is_mobile" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Enrollment Location</TranslatedText></Question>
+		<CodeListRef CodeListOID="is_mobile.choices"/>
+	</ItemDef>
+	<ItemDef OID="is_mobile_where" Name="is_mobile_where" DataType="text" Length="2" redcap:Variable="is_mobile_where" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[is_mobile]=&#039;1&#039;">
+		<Question><TranslatedText>If this is a mobile visit, where did it occur?</TranslatedText></Question>
+		<CodeListRef CodeListOID="is_mobile_where.choices"/>
+	</ItemDef>
+	<ItemDef OID="language" Name="language" DataType="text" Length="4" redcap:Variable="language" redcap:FieldType="radio">
+		<Question><TranslatedText>Primary or Preferred Language</TranslatedText></Question>
+		<CodeListRef CodeListOID="language.choices"/>
+	</ItemDef>
+	<ItemDef OID="language_other" Name="language_other" DataType="text" Length="999" redcap:Variable="language_other" redcap:FieldType="text" redcap:TextValidationType="alpha_only" redcap:BranchingLogic="[language] = 4">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="initials_pt" Name="initials_pt" DataType="text" Length="999" redcap:Variable="initials_pt" redcap:FieldType="text" redcap:TextValidationType="alpha_only" redcap:FieldNote="First &amp; Last (i.e. JS)" redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Name Initials</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="unique_initials_pt" Name="unique_initials_pt" DataType="text" Length="999" redcap:Variable="unique_initials_pt" redcap:FieldType="text" redcap:TextValidationType="alpha_only" redcap:Identifier="y" redcap:RequiredField="y" redcap:FieldAnnotation="@CALCTEXT(upper([initials_pt]))
+@HIDDEN">
+		<Question><TranslatedText>@CALCTEXT Name Initials</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="initials_mother" Name="initials_mother" DataType="text" Length="999" redcap:Variable="initials_mother" redcap:FieldType="text" redcap:TextValidationType="alpha_only" redcap:FieldNote="First &amp; Last (i.e. JS)" redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Mother&#039;s Initials</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="unique_initials_mother" Name="unique_initials_mother" DataType="text" Length="999" redcap:Variable="unique_initials_mother" redcap:FieldType="text" redcap:TextValidationType="alpha_only" redcap:Identifier="y" redcap:RequiredField="y" redcap:FieldAnnotation="@CALCTEXT(upper([initials_mother]))
+@HIDDEN">
+		<Question><TranslatedText>@CALCTEXT Mother&#039;s Name Initials</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="birth_month" Name="birth_month" DataType="text" Length="2" redcap:Variable="birth_month" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Birth Month</TranslatedText></Question>
+		<CodeListRef CodeListOID="birth_month.choices"/>
+	</ItemDef>
+	<ItemDef OID="unique_birth_month" Name="unique_birth_month" DataType="text" Length="999" redcap:Variable="unique_birth_month" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(
+if([birth_month]=&#039;1&#039;, &#039;J&#039;,
+if([birth_month]=&#039;2&#039;, &#039;F&#039;,
+if([birth_month]=&#039;3&#039;, &#039;M&#039;,
+if([birth_month]=&#039;4&#039;, &#039;A&#039;,
+if([birth_month]=&#039;5&#039;, &#039;M&#039;,
+if([birth_month]=&#039;6&#039;, &#039;J&#039;,
+if([birth_month]=&#039;7&#039;, &#039;J&#039;,
+if([birth_month]=&#039;8&#039;, &#039;A&#039;,
+if([birth_month]=&#039;9&#039;, &#039;S&#039;,
+if([birth_month]=&#039;10&#039;, &#039;O&#039;,
+if([birth_month]=&#039;11&#039;, &#039;N&#039;,
+if([birth_month]=&#039;12&#039;, &#039;D&#039;, &quot;None&quot;))))))))))))))
+@HIDDEN">
+		<Question><TranslatedText>@CALCTEXT Birth Month</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="birth_year" Name="birth_year" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="birth_year" redcap:FieldType="text" redcap:TextValidationType="float" redcap:FieldNote="Specify four digit year (i.e. 1993)" redcap:RequiredField="y">
+		<Question><TranslatedText>Birth Year</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>1900</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (1900 - 2500). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>2500</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (1900 - 2500). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="simulated_dob" Name="simulated_dob" DataType="text" Length="999" redcap:Variable="simulated_dob" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(if([birth_month]&gt;9,
+concat([birth_month],&#039;-01-&#039;, [birth_year]), 
+concat(&#039;0&#039;,[birth_month],&#039;-01-&#039;,[birth_year]))))
+@HIDDEN">
+		<Question><TranslatedText>@CALCTEXT Simulated DOB
+
+</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="race" Name="race" DataType="text" Length="4" redcap:Variable="race" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Race</TranslatedText></Question>
+		<CodeListRef CodeListOID="race.choices"/>
+	</ItemDef>
+	<ItemDef OID="unique_race" Name="unique_race" DataType="text" Length="999" redcap:Variable="unique_race" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(
+if([race]=&#039;1&#039;, &#039;W&#039;,
+if([race]=&#039;2&#039;, &#039;B&#039;,
+if([race]=&#039;3&#039;, &#039;A&#039;,
+if([race]=&#039;4&#039;, &#039;N&#039;,
+if([race]=&#039;5&#039;, &#039;P&#039;,
+if([race]=&#039;6&#039;, &#039;M&#039;,
+if([race]=&#039;7&#039;, &#039;R&#039;, &quot;None&quot;))))))))
+@HIDDEN">
+		<Question><TranslatedText>@CALCTEXT Race</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="is_hispanic" Name="is_hispanic" DataType="text" Length="4" redcap:Variable="is_hispanic" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Ethnicity</TranslatedText></Question>
+		<CodeListRef CodeListOID="is_hispanic.choices"/>
+	</ItemDef>
+	<ItemDef OID="sex_at_birth" Name="sex_at_birth" DataType="text" Length="4" redcap:Variable="sex_at_birth" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Sex Assigned at Birth</TranslatedText></Question>
+		<CodeListRef CodeListOID="sex_at_birth.choices"/>
+	</ItemDef>
+	<ItemDef OID="unique_sex_at_birth" Name="unique_sex_at_birth" DataType="text" Length="999" redcap:Variable="unique_sex_at_birth" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(
+if([sex_at_birth]=&#039;1&#039;, &#039;M&#039;,
+if([sex_at_birth]=&#039;2&#039;, &#039;F&#039;,
+if([sex_at_birth]=&#039;3&#039;, &#039;I&#039;,
+if([sex_at_birth]=&#039;-999&#039;, &#039;R&#039;, &quot;None&quot;)))))
+@HIDDEN">
+		<Question><TranslatedText>@CALCTEXT Sex at birth </TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="unique_idcode" Name="unique_idcode" DataType="text" Length="999" redcap:Variable="unique_idcode" redcap:FieldType="text" redcap:FieldAnnotation="@CALCTEXT(concat([unique_initials_pt],[unique_initials_mother],[unique_birth_month],[birth_year],[unique_race],[unique_sex_at_birth]))">
+		<Question><TranslatedText>Unique ID Code</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(22, 145, 121);&quot;&gt;Unique ID Code&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="gender" Name="gender" DataType="text" Length="4" redcap:Variable="gender" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Gender Identity</TranslatedText></Question>
+		<CodeListRef CodeListOID="gender.choices"/>
+	</ItemDef>
+	<ItemDef OID="gender_other" Name="gender_other" DataType="text" Length="999" redcap:Variable="gender_other" redcap:FieldType="text" redcap:BranchingLogic="[gender] = 6" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="is_transgender" Name="is_transgender" DataType="boolean" Length="1" redcap:Variable="is_transgender" redcap:FieldType="yesno">
+		<Question><TranslatedText>Do you identify as transgender and/or as someone of trans experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="is_transgender.choices"/>
+	</ItemDef>
+	<ItemDef OID="name" Name="name" DataType="text" Length="999" redcap:Variable="name" redcap:FieldType="text" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>(Old) Name for Comparison</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="zipcode" Name="zipcode" DataType="text" Length="999" redcap:Variable="zipcode" redcap:FieldType="text" redcap:FieldNote="If unknown or N/A, enter 00000 " redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Zip Code</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="sexual_orientation" Name="sexual_orientation" DataType="text" Length="4" redcap:Variable="sexual_orientation" redcap:FieldType="radio">
+		<Question><TranslatedText>Sexual Orientation</TranslatedText></Question>
+		<CodeListRef CodeListOID="sexual_orientation.choices"/>
+	</ItemDef>
+	<ItemDef OID="relationship" Name="relationship" DataType="text" Length="4" redcap:Variable="relationship" redcap:FieldType="radio">
+		<Question><TranslatedText>Current Relationship Status</TranslatedText></Question>
+		<CodeListRef CodeListOID="relationship.choices"/>
+	</ItemDef>
+	<ItemDef OID="education" Name="education" DataType="text" Length="4" redcap:Variable="education" redcap:FieldType="select">
+		<Question><TranslatedText>What is your highest level of educational attainment?</TranslatedText></Question>
+		<CodeListRef CodeListOID="education.choices"/>
+	</ItemDef>
+	<ItemDef OID="employment" Name="employment" DataType="text" Length="4" redcap:Variable="employment" redcap:FieldType="select">
+		<Question><TranslatedText>What is your employment status?</TranslatedText></Question>
+		<CodeListRef CodeListOID="employment.choices"/>
+	</ItemDef>
+	<ItemDef OID="is_homeless" Name="is_homeless" DataType="text" Length="4" redcap:Variable="is_homeless" redcap:FieldType="radio">
+		<Question><TranslatedText>Are you currently homeless?
+
+(Do you lack a fixed, regular, and adequate nighttime residence?)</TranslatedText></Question>
+		<CodeListRef CodeListOID="is_homeless.choices"/>
+	</ItemDef>
+	<ItemDef OID="living_situation" Name="living_situation" DataType="text" Length="4" redcap:Variable="living_situation" redcap:FieldType="radio">
+		<Question><TranslatedText>How would you describe your current housing or living situation?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;How would you describe your current housing or living situation?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="living_situation.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___0" Name="noninject_drug_thirty___0" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___0.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___1" Name="noninject_drug_thirty___1" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___2" Name="noninject_drug_thirty___2" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___3" Name="noninject_drug_thirty___3" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___4" Name="noninject_drug_thirty___4" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___5" Name="noninject_drug_thirty___5" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___6" Name="noninject_drug_thirty___6" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___7" Name="noninject_drug_thirty___7" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___7.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___8" Name="noninject_drug_thirty___8" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___8.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___9" Name="noninject_drug_thirty___9" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___9.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___10" Name="noninject_drug_thirty___10" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___10.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___11" Name="noninject_drug_thirty___11" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___11.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___12" Name="noninject_drug_thirty___12" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___12.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___15" Name="noninject_drug_thirty___15" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___15.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___16" Name="noninject_drug_thirty___16" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___16.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty___13" Name="noninject_drug_thirty___13" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty___13.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninject_drug_thirty____999" Name="noninject_drug_thirty____999" DataType="boolean" Length="1" redcap:Variable="noninject_drug_thirty" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Substance Use Behaviors&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>In the past 30 days, which NON-Injection drugs have you used (i.e. snorting, smoking, swallowing)?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;NON-Injection &lt;/span&gt;drugs have you used (i.e. snorting, smoking, swallowing)?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="noninject_drug_thirty____999.choices"/>
+	</ItemDef>
+	<ItemDef OID="noninjection_drugs_other" Name="noninjection_drugs_other" DataType="text" Length="999" redcap:Variable="noninjection_drugs_other" redcap:FieldType="text" redcap:BranchingLogic="[noninject_drug_thirty(13)]=&#039;1&#039;">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___0" Name="injection_drugs___0" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___0.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___1" Name="injection_drugs___1" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___2" Name="injection_drugs___2" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___3" Name="injection_drugs___3" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___4" Name="injection_drugs___4" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___5" Name="injection_drugs___5" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___6" Name="injection_drugs___6" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___7" Name="injection_drugs___7" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___7.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___8" Name="injection_drugs___8" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___8.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___9" Name="injection_drugs___9" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___9.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___10" Name="injection_drugs___10" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___10.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___11" Name="injection_drugs___11" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___11.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___12" Name="injection_drugs___12" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___12.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___15" Name="injection_drugs___15" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___15.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___16" Name="injection_drugs___16" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___16.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs___13" Name="injection_drugs___13" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs___13.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs____999" Name="injection_drugs____999" DataType="boolean" Length="1" redcap:Variable="injection_drugs" redcap:FieldType="checkbox">
+		<Question><TranslatedText>In the past 30 days, which Injection drugs have you used?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, which &lt;span style=&quot;color: #e03e2d;&quot;&gt;Injection &lt;/span&gt;drugs have you used?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="injection_drugs____999.choices"/>
+	</ItemDef>
+	<ItemDef OID="injection_drugs_other" Name="injection_drugs_other" DataType="text" Length="999" redcap:Variable="injection_drugs_other" redcap:FieldType="text" redcap:BranchingLogic="[injection_drugs(13)] = &#039;1&#039;">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="age_first_inject" Name="age_first_inject" DataType="text" Length="999" redcap:Variable="age_first_inject" redcap:FieldType="text" redcap:FieldNote="Age in years">
+		<Question><TranslatedText>How old were you the first time you injected any drug?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="inject_amount_daily" Name="inject_amount_daily" DataType="text" Length="1" redcap:Variable="inject_amount_daily" redcap:FieldType="select">
+		<Question><TranslatedText>In the past 30 days, how many times on average have you injected per day?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, how many times &lt;span style=&quot;text-decoration: underline;&quot;&gt;on average&lt;/span&gt; have you injected per day?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="inject_amount_daily.choices"/>
+	</ItemDef>
+	<ItemDef OID="reused_thirty" Name="reused_thirty" DataType="text" Length="4" redcap:Variable="reused_thirty" redcap:FieldType="radio">
+		<Question><TranslatedText>In the past 30 days, how often have you reused a syringe/needle or other works when injecting? (only applies to a needle that you already used)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, how often have you reused a syringe/needle or other works when injecting? (only applies to a needle that you already used)&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="reused_thirty.choices"/>
+	</ItemDef>
+	<ItemDef OID="shared_thirty" Name="shared_thirty" DataType="text" Length="4" redcap:Variable="shared_thirty" redcap:FieldType="radio">
+		<Question><TranslatedText>In the past 30 days, how often have you shared syringes/needles or other works when injecting?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, how often have you shared syringes/needles or other works when injecting?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="shared_thirty.choices"/>
+	</ItemDef>
+	<ItemDef OID="has_od" Name="has_od" DataType="text" Length="4" redcap:Variable="has_od" redcap:FieldType="radio">
+		<Question><TranslatedText>Have you ever overdosed due to injection drug use?</TranslatedText></Question>
+		<CodeListRef CodeListOID="has_od.choices"/>
+	</ItemDef>
+	<ItemDef OID="sex_exchange_thirty" Name="sex_exchange_thirty" DataType="text" Length="4" redcap:Variable="sex_exchange_thirty" redcap:FieldType="radio">
+		<Question><TranslatedText>In the past 30 days, have you had sex in exchange for money or drugs?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;In the &lt;span style=&quot;text-decoration: underline;&quot;&gt;past 30 days&lt;/span&gt;, have you had sex in exchange for money or drugs?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="sex_exchange_thirty.choices"/>
+	</ItemDef>
+	<ItemDef OID="covid_vaccine" Name="covid_vaccine" DataType="text" Length="4" redcap:Variable="covid_vaccine" redcap:FieldType="radio" redcap:SectionHeader="Have you received the following vaccines?" redcap:MatrixGroupName="vaccine_info">
+		<Question><TranslatedText>COVID-19 Vaccine</TranslatedText></Question>
+		<CodeListRef CodeListOID="covid_vaccine.choices"/>
+	</ItemDef>
+	<ItemDef OID="hep_a_vaccine" Name="hep_a_vaccine" DataType="text" Length="4" redcap:Variable="hep_a_vaccine" redcap:FieldType="radio" redcap:MatrixGroupName="vaccine_info">
+		<Question><TranslatedText>Hepatitis A Vaccine</TranslatedText></Question>
+		<CodeListRef CodeListOID="hep_a_vaccine.choices"/>
+	</ItemDef>
+	<ItemDef OID="hep_b_vaccine" Name="hep_b_vaccine" DataType="text" Length="4" redcap:Variable="hep_b_vaccine" redcap:FieldType="radio" redcap:MatrixGroupName="vaccine_info">
+		<Question><TranslatedText>Hepatitis B Vaccine</TranslatedText></Question>
+		<CodeListRef CodeListOID="hep_b_vaccine.choices"/>
+	</ItemDef>
+	<ItemDef OID="hiv_test_ever" Name="hiv_test_ever" DataType="text" Length="4" redcap:Variable="hiv_test_ever" redcap:FieldType="radio" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Testing Information&lt;/span&gt;&lt;/h4&gt;&lt;/div&gt;" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you ever been tested for HIV?</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Have you ever been tested for HIV?&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+		<CodeListRef CodeListOID="hiv_test_ever.choices"/>
+	</ItemDef>
+	<ItemDef OID="hiv_test_prior_result" Name="hiv_test_prior_result" DataType="text" Length="4" redcap:Variable="hiv_test_prior_result" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[hiv_test_ever] = 1">
+		<Question><TranslatedText>Result of Most Recent HIV Test</TranslatedText></Question>
+		<CodeListRef CodeListOID="hiv_test_prior_result.choices"/>
+	</ItemDef>
+	<ItemDef OID="hiv_test_tx" Name="hiv_test_tx" DataType="boolean" Length="1" redcap:Variable="hiv_test_tx" redcap:FieldType="yesno" redcap:BranchingLogic="[hiv_test_prior_result] = 2">
+		<Question><TranslatedText>If positive, are you currently receiving HIV treatment ?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hiv_test_tx.choices"/>
+	</ItemDef>
+	<ItemDef OID="hiv_test_today" Name="hiv_test_today" DataType="boolean" Length="1" redcap:Variable="hiv_test_today" redcap:FieldType="yesno" redcap:RequiredField="y">
+		<Question><TranslatedText>Agrees to HIV test today?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hiv_test_today.choices"/>
+	</ItemDef>
+	<ItemDef OID="hiv_test_today_brand" Name="hiv_test_today_brand" DataType="text" Length="999" redcap:Variable="hiv_test_today_brand" redcap:FieldType="text" redcap:BranchingLogic="[hiv_test_today]=1" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>HIV Rapid Test  Brand
+
+Updated as of 09082024 to multiple choice instead of free text</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hiv_test_brand" Name="hiv_test_brand" DataType="text" Length="1" redcap:Variable="hiv_test_brand" redcap:FieldType="radio" redcap:BranchingLogic="[hiv_test_today]=1">
+		<Question><TranslatedText>HIV Rapid Test  Brand</TranslatedText></Question>
+		<CodeListRef CodeListOID="hiv_test_brand.choices"/>
+	</ItemDef>
+	<ItemDef OID="hiv_brand_other" Name="hiv_brand_other" DataType="text" Length="999" redcap:Variable="hiv_brand_other" redcap:FieldType="text" redcap:BranchingLogic="[hiv_test_brand] = 4">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hiv_test_today_result" Name="hiv_test_today_result" DataType="text" Length="1" redcap:Variable="hiv_test_today_result" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[hiv_test_today]=1">
+		<Question><TranslatedText>HIV Rapid Result Today</TranslatedText></Question>
+		<CodeListRef CodeListOID="hiv_test_today_result.choices"/>
+	</ItemDef>
+	<ItemDef OID="hiv_test_today_ltc" Name="hiv_test_today_ltc" DataType="boolean" Length="1" redcap:Variable="hiv_test_today_ltc" redcap:FieldType="yesno" redcap:BranchingLogic="[hiv_test_today_result]=2">
+		<Question><TranslatedText>Was the individual linked to care for HIV at time of result delivery?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hiv_test_today_ltc.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_test_ever" Name="hcv_test_ever" DataType="text" Length="4" redcap:Variable="hcv_test_ever" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you ever been tested for Hepatitis C (HCV)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_test_ever.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_test_prior_result" Name="hcv_test_prior_result" DataType="text" Length="4" redcap:Variable="hcv_test_prior_result" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[hcv_test_ever] = 1">
+		<Question><TranslatedText>Result of Most Recent HCV Test</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_test_prior_result.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_test_tx" Name="hcv_test_tx" DataType="boolean" Length="1" redcap:Variable="hcv_test_tx" redcap:FieldType="yesno" redcap:BranchingLogic="[hcv_test_prior_result] = &#039;2&#039;">
+		<Question><TranslatedText>If positive, did you previously receive hepatitis C (HCV) treatment?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_test_tx.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_test_today" Name="hcv_test_today" DataType="boolean" Length="1" redcap:Variable="hcv_test_today" redcap:FieldType="yesno" redcap:RequiredField="y">
+		<Question><TranslatedText>Agrees to HCV test today?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_test_today.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_test_today_result" Name="hcv_test_today_result" DataType="text" Length="1" redcap:Variable="hcv_test_today_result" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[hcv_test_today]=1">
+		<Question><TranslatedText>HCV Test Result Today</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_test_today_result.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_test_today_ltc" Name="hcv_test_today_ltc" DataType="boolean" Length="1" redcap:Variable="hcv_test_today_ltc" redcap:FieldType="yesno" redcap:BranchingLogic="[hcv_test_today_result] = 2">
+		<Question><TranslatedText>Was the individual linked to care for HCV at time of result delivery?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_test_today_ltc.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_rna_offered" Name="hcv_rna_offered" DataType="boolean" Length="1" redcap:Variable="hcv_rna_offered" redcap:FieldType="yesno" redcap:RequiredField="y">
+		<Question><TranslatedText>Was HCV RNA testing offered?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_rna_offered.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_rna_accepted" Name="hcv_rna_accepted" DataType="boolean" Length="1" redcap:Variable="hcv_rna_accepted" redcap:FieldType="yesno" redcap:RequiredField="y" redcap:BranchingLogic="[hcv_rna_offered]=1">
+		<Question><TranslatedText>Was HCV RNA testing accepted?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_rna_accepted.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_rna_results" Name="hcv_rna_results" DataType="text" Length="1" redcap:Variable="hcv_rna_results" redcap:FieldType="radio" redcap:BranchingLogic="[hcv_rna_accepted]=1">
+		<Question><TranslatedText>HCV RNA Lab Results</TranslatedText></Question>
+		<CodeListRef CodeListOID="hcv_rna_results.choices"/>
+	</ItemDef>
+	<ItemDef OID="hcv_rna_viral_load" Name="hcv_rna_viral_load" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="hcv_rna_viral_load" redcap:FieldType="text" redcap:TextValidationType="float" redcap:BranchingLogic="[hcv_rna_results]=3">
+		<Question><TranslatedText>HCV RNA Viral Load (iu/ml)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - no limit). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="syphillis_test_ever" Name="syphillis_test_ever" DataType="text" Length="4" redcap:Variable="syphillis_test_ever" redcap:FieldType="radio">
+		<Question><TranslatedText>Have you ever been tested for Syphillis?</TranslatedText></Question>
+		<CodeListRef CodeListOID="syphillis_test_ever.choices"/>
+	</ItemDef>
+	<ItemDef OID="syphillis_result_prior" Name="syphillis_result_prior" DataType="text" Length="1" redcap:Variable="syphillis_result_prior" redcap:FieldType="radio" redcap:BranchingLogic="[syphillis_test_ever] = &#039;1&#039;">
+		<Question><TranslatedText>Result of Most Recent Syphillis Test</TranslatedText></Question>
+		<CodeListRef CodeListOID="syphillis_result_prior.choices"/>
+	</ItemDef>
+	<ItemDef OID="syphillis_agree_today" Name="syphillis_agree_today" DataType="boolean" Length="1" redcap:Variable="syphillis_agree_today" redcap:FieldType="yesno">
+		<Question><TranslatedText>Agrees to Syphillis test today?</TranslatedText></Question>
+		<CodeListRef CodeListOID="syphillis_agree_today.choices"/>
+	</ItemDef>
+	<ItemDef OID="syphillis_result_today" Name="syphillis_result_today" DataType="text" Length="1" redcap:Variable="syphillis_result_today" redcap:FieldType="radio" redcap:BranchingLogic="[syphillis_agree_today] = &#039;1&#039;">
+		<Question><TranslatedText>Result of Syphillis Test Today</TranslatedText></Question>
+		<CodeListRef CodeListOID="syphillis_result_today.choices"/>
+	</ItemDef>
+	<ItemDef OID="hear_about_exchange___1" Name="hear_about_exchange___1" DataType="boolean" Length="1" redcap:Variable="hear_about_exchange" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Administrative Information&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>Where did you hear about the IDEA Exchange?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hear_about_exchange___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="hear_about_exchange___2" Name="hear_about_exchange___2" DataType="boolean" Length="1" redcap:Variable="hear_about_exchange" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Administrative Information&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>Where did you hear about the IDEA Exchange?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hear_about_exchange___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="hear_about_exchange___3" Name="hear_about_exchange___3" DataType="boolean" Length="1" redcap:Variable="hear_about_exchange" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Administrative Information&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>Where did you hear about the IDEA Exchange?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hear_about_exchange___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="hear_about_exchange___4" Name="hear_about_exchange___4" DataType="boolean" Length="1" redcap:Variable="hear_about_exchange" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Administrative Information&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>Where did you hear about the IDEA Exchange?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hear_about_exchange___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="hear_about_exchange___5" Name="hear_about_exchange___5" DataType="boolean" Length="1" redcap:Variable="hear_about_exchange" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Administrative Information&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>Where did you hear about the IDEA Exchange?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hear_about_exchange___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="hear_about_exchange___6" Name="hear_about_exchange___6" DataType="boolean" Length="1" redcap:Variable="hear_about_exchange" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Administrative Information&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>Where did you hear about the IDEA Exchange?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hear_about_exchange___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="hear_about_exchange____999" Name="hear_about_exchange____999" DataType="boolean" Length="1" redcap:Variable="hear_about_exchange" redcap:FieldType="checkbox" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;h4 style=&quot;text-align: center;&quot;&gt;Administrative Information&lt;/h4&gt;&lt;/div&gt;">
+		<Question><TranslatedText>Where did you hear about the IDEA Exchange?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hear_about_exchange____999.choices"/>
+	</ItemDef>
+	<ItemDef OID="hear_about_other" Name="hear_about_other" DataType="text" Length="999" redcap:Variable="hear_about_other" redcap:FieldType="text" redcap:BranchingLogic="[hear_about_exchange(6)]= &#039;1&#039;">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="holding_meds" Name="holding_meds" DataType="boolean" Length="1" redcap:Variable="holding_meds" redcap:FieldType="yesno">
+		<Question><TranslatedText>Are we holding medications for this participant?</TranslatedText></Question>
+		<CodeListRef CodeListOID="holding_meds.choices"/>
+	</ItemDef>
+	<ItemDef OID="holding_meds_locker" Name="holding_meds_locker" DataType="text" Length="999" redcap:Variable="holding_meds_locker" redcap:FieldType="text" redcap:BranchingLogic="[holding_meds]=1">
+		<Question><TranslatedText>Pill Locker Number</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="interview_notes" Name="interview_notes" DataType="text" Length="999" redcap:Variable="interview_notes" redcap:FieldType="textarea">
+		<Question><TranslatedText>Interviewer Notes</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="completed_by" Name="completed_by" DataType="text" Length="2" redcap:Variable="completed_by" redcap:FieldType="select" redcap:RequiredField="y" redcap:FieldAnnotation="@HIDECHOICE = &#039;2,8,9,20,22,23&#039;">
+		<Question><TranslatedText>Completed By </TranslatedText></Question>
+		<CodeListRef CodeListOID="completed_by.choices"/>
+	</ItemDef>
+	<ItemDef OID="completed_by_other" Name="completed_by_other" DataType="text" Length="999" redcap:Variable="completed_by_other" redcap:FieldType="text" redcap:BranchingLogic="[completed_by] = &#039;4&#039;">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="id_info" Name="id_info" DataType="text" Length="999" redcap:Variable="id_info" redcap:FieldType="descriptive">
+		<Question><TranslatedText>       For Staff Reference Only    Assigned ID Code: [id_code]   Unique ID Code: [unique_idcode]   ************************************************************************************************
+     </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt; &lt;/p&gt; &lt;table style=&quot;border-collapse: collapse; width: 696px; height: 119.562px; background-color: rgb(206, 212, 217); border-style: inset;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 42.375px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 42.375px; text-align: center;&quot;&gt; &lt;h5&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;For Staff Reference Only&lt;/span&gt;&lt;/span&gt;&lt;/h5&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 25px; text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(22, 145, 121);&quot;&gt;Assigned ID Code: [id_code]&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 27.1875px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 27.1875px; text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(22, 145, 121);&quot;&gt;Unique ID Code: [unique_idcode]&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; text-align: left; height: 25px;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;************************************************************************************************&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt; &lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="referral_grid" Name="referral_grid" DataType="text" Length="999" redcap:Variable="referral_grid" redcap:FieldType="descriptive">
+		<Question><TranslatedText>       NOTE TO STAFF:  Please refer participant to the following services.    {hiv_no_prior_test_refer}   {hiv_test_treat_refer}   {is_vaccinated_hep_a_refer}   {is_vaccinated_hep_b_refer}   {hcv_no_prior_test_refer}   {hcv_test_today_result_rna}   {hcv_test_treat_refer}   ************************************************************************************************
+     </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt; &lt;/p&gt; &lt;table style=&quot;border-collapse: collapse; width: 696px; height: 239px; background-color: rgb(206, 212, 217); border-style: inset;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 39px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 39px; text-align: center;&quot;&gt; &lt;h5&gt;&lt;span style=&quot;color: #000000;&quot;&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;NOTE TO STAFF:  Please refer participant to the following services.&lt;/span&gt;&lt;/span&gt;&lt;/h5&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 25px; text-align: center;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;{hiv_no_prior_test_refer}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 25px; text-align: center;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;{hiv_test_treat_refer}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 25px; text-align: center;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;{is_vaccinated_hep_a_refer}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 25px; text-align: center;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;{is_vaccinated_hep_b_refer}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 25px; text-align: center;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;{hcv_no_prior_test_refer}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; text-align: center; height: 25px;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;{hcv_test_today_result_rna}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; height: 25px; text-align: center;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;{hcv_test_treat_refer}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 25px;&quot;&gt; &lt;td style=&quot;width: 695px; text-align: left; height: 25px;&quot;&gt;&lt;span style=&quot;color: #ba372a;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;************************************************************************************************&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt; &lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hiv_no_prior_test_refer" Name="hiv_no_prior_test_refer" DataType="text" Length="999" redcap:Variable="hiv_no_prior_test_refer" redcap:FieldType="descriptive" redcap:BranchingLogic="[hiv_test_today]=0">
+		<Question><TranslatedText>HIV Testing</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;HIV Testing&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hiv_test_treat_refer" Name="hiv_test_treat_refer" DataType="text" Length="999" redcap:Variable="hiv_test_treat_refer" redcap:FieldType="descriptive" redcap:BranchingLogic="[hiv_test_tx] = &#039;0&#039; or [hiv_test_today_result]=2">
+		<Question><TranslatedText>Engagement Team: Linkage to HIV Care</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Engagement Team:&lt;/span&gt; Linkage to HIV Care&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hcv_no_prior_test_refer" Name="hcv_no_prior_test_refer" DataType="text" Length="999" redcap:Variable="hcv_no_prior_test_refer" redcap:FieldType="descriptive" redcap:BranchingLogic="[hcv_test_today]=0">
+		<Question><TranslatedText>HCV Testing</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;HCV Testing&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hcv_test_treat_refer" Name="hcv_test_treat_refer" DataType="text" Length="999" redcap:Variable="hcv_test_treat_refer" redcap:FieldType="descriptive" redcap:BranchingLogic="[hcv_test_tx] = &#039;0&#039; or [hcv_test_today_result]=&#039;2&#039;">
+		<Question><TranslatedText>Engagement Team: Linkage to HCV Care</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Engagement Team:&lt;/span&gt; Linkage to HCV Care&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hcv_test_today_result_rna" Name="hcv_test_today_result_rna" DataType="text" Length="999" redcap:Variable="hcv_test_today_result_rna" redcap:FieldType="descriptive" redcap:BranchingLogic="[hcv_test_today_result]=2 and [hcv_rna_accepted]=0">
+		<Question><TranslatedText>HCV RNA Testing</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;HCV RNA Testing&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="is_vaccinated_hep_a_refer" Name="is_vaccinated_hep_a_refer" DataType="text" Length="999" redcap:Variable="is_vaccinated_hep_a_refer" redcap:FieldType="descriptive" redcap:BranchingLogic="[hep_a_vaccine] = 0 OR [hep_a_vaccine] = -999">
+		<Question><TranslatedText>Engagement Team: Hep A Vaccine</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Engagement Team:&lt;/span&gt; Hep A Vaccine&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="is_vaccinated_hep_b_refer" Name="is_vaccinated_hep_b_refer" DataType="text" Length="999" redcap:Variable="is_vaccinated_hep_b_refer" redcap:FieldType="descriptive" redcap:BranchingLogic="[hep_b_vaccine] = 0 OR [hep_b_vaccine] = -999">
+		<Question><TranslatedText>Engagement Team: Hep B Vaccine</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Engagement Team:&lt;/span&gt; Hep B Vaccine&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="days_since_enrolllment" Name="days_since_enrolllment" DataType="float" Length="999" redcap:Variable="days_since_enrolllment" redcap:FieldType="calc" redcap:Calculation="datediff(&quot;today&quot;,[date],&quot;d&quot;)" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Days Since Enrollment</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="miami_idea_exchange_enrollment_form_complete" Name="miami_idea_exchange_enrollment_form_complete" DataType="text" Length="1" redcap:Variable="miami_idea_exchange_enrollment_form_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="miami_idea_exchange_enrollment_form_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="is_mobile.choices" Name="is_mobile" DataType="text" redcap:Variable="is_mobile">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Fixed</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Mobile</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="is_mobile_where.choices" Name="is_mobile_where" DataType="text" redcap:Variable="is_mobile_where">
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>County Line</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Florida City</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>Homestead</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Liberty City</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Miami Beach</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Opa Locka</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Overtown</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Backpacking</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="11"><Decode><TranslatedText>Delivery</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="language.choices" Name="language" DataType="text" redcap:Variable="language">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>English</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Spanish</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>French or Creole</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Other {language_other}</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="birth_month.choices" Name="birth_month" DataType="text" redcap:Variable="birth_month">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>January</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>February</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>March</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>April</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>May</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>June</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>July</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>August</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>September</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>October</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="11"><Decode><TranslatedText>November</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="12"><Decode><TranslatedText>December</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="race.choices" Name="race" DataType="text" redcap:Variable="race">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>White</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Black or African American</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Asian</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Native American</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Pacific Islander</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Multiracial</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="is_hispanic.choices" Name="is_hispanic" DataType="text" redcap:Variable="is_hispanic">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Hispanic or Latino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not Hispanic or Latino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sex_at_birth.choices" Name="sex_at_birth" DataType="text" redcap:Variable="sex_at_birth">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Male</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Female</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Intersex</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="gender.choices" Name="gender" DataType="text" redcap:Variable="gender">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Woman</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Man</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Genderqueer</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Non-binary</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Agender</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Not listed {gender_other}</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="is_transgender.choices" Name="is_transgender" DataType="boolean" redcap:Variable="is_transgender">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sexual_orientation.choices" Name="sexual_orientation" DataType="text" redcap:Variable="sexual_orientation">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Straight or Heterosexual</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Gay or Lesbian</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Bisexual</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Questioning</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="relationship.choices" Name="relationship" DataType="text" redcap:Variable="relationship">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Single</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Married</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Separated or Divorced</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Widowed or Widower</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Partnered (Boyfriend, girlfriend, etc)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="education.choices" Name="education" DataType="text" redcap:Variable="education">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Nursery to 8th Grade</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Some High School (No Diploma)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>High School Diploma or GED</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Some College</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>College Degree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Advanced Degree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Vocational Training or Technical School</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="employment.choices" Name="employment" DataType="text" redcap:Variable="employment">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Currently employed - paid by salary</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Currently employed - paid by hour</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Self-employed</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Unemployed less than 1 year</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Unemployed greater than 1 year</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Student</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Disabled</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Retired</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="is_homeless.choices" Name="is_homeless" DataType="text" redcap:Variable="is_homeless">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="living_situation.choices" Name="living_situation" DataType="text" redcap:Variable="living_situation">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>I have stable housing</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>I do NOT have stable housing (i.e. shelter, car, hotel, couch-surfing)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Rough sleeping (i.e. street, park, outside)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___0.choices" Name="noninject_drug_thirty___0" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___1.choices" Name="noninject_drug_thirty___1" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___2.choices" Name="noninject_drug_thirty___2" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___3.choices" Name="noninject_drug_thirty___3" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___4.choices" Name="noninject_drug_thirty___4" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___5.choices" Name="noninject_drug_thirty___5" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___6.choices" Name="noninject_drug_thirty___6" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___7.choices" Name="noninject_drug_thirty___7" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___8.choices" Name="noninject_drug_thirty___8" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___9.choices" Name="noninject_drug_thirty___9" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___10.choices" Name="noninject_drug_thirty___10" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___11.choices" Name="noninject_drug_thirty___11" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___12.choices" Name="noninject_drug_thirty___12" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___15.choices" Name="noninject_drug_thirty___15" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___16.choices" Name="noninject_drug_thirty___16" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty___13.choices" Name="noninject_drug_thirty___13" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="noninject_drug_thirty____999.choices" Name="noninject_drug_thirty____999" DataType="boolean" redcap:Variable="noninject_drug_thirty" redcap:CheckboxChoices="0, None | 1, Alcohol | 2, Barbiturates | 3, Carfentanil | 4, Cocaine | 5, Crack | 6, Fentanyl | 7, Heroin | 8, Marijuana | 9, Methamphetamine | 10, Pain Killers | 11, Prescription Opioids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {noninjection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___0.choices" Name="injection_drugs___0" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___1.choices" Name="injection_drugs___1" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___2.choices" Name="injection_drugs___2" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___3.choices" Name="injection_drugs___3" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___4.choices" Name="injection_drugs___4" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___5.choices" Name="injection_drugs___5" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___6.choices" Name="injection_drugs___6" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___7.choices" Name="injection_drugs___7" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___8.choices" Name="injection_drugs___8" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___9.choices" Name="injection_drugs___9" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___10.choices" Name="injection_drugs___10" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___11.choices" Name="injection_drugs___11" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___12.choices" Name="injection_drugs___12" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___15.choices" Name="injection_drugs___15" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___16.choices" Name="injection_drugs___16" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs___13.choices" Name="injection_drugs___13" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="injection_drugs____999.choices" Name="injection_drugs____999" DataType="boolean" redcap:Variable="injection_drugs" redcap:CheckboxChoices="0, None | 1, Carfentanil | 2, Cocaine | 3, Crack | 4, Fentanyl | 5, Heroin | 6, Hormones | 7, Methamphetamine | 8, Pain Killers | 9, Prescription Opioids | 10, Speedball | 11, Steroids | 12, Xylazine/Tranq | 15, Molly/MDMA | 16, Ketamine | 13, Other {injection_drugs_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="inject_amount_daily.choices" Name="inject_amount_daily" DataType="text" redcap:Variable="inject_amount_daily">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Less than daily</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1-2 times/day</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>3-4 times/day</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>5-7 times/day</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>8-10 times/day</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>11-15 times/day</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>&gt;15 times/day</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Haven&#039;t injected in past 30 days</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="reused_thirty.choices" Name="reused_thirty" DataType="text" redcap:Variable="reused_thirty">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>None of the time (0% of the time)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Some of the time (&lt; 50% of the time)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Most of the time (&gt;50% of the time)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>All of the time (100% of the time)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="shared_thirty.choices" Name="shared_thirty" DataType="text" redcap:Variable="shared_thirty">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>None of the time (0% of the time)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Some of the time (&lt; 50% of the time)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Most of the time (&gt;50% of the time)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>All of the time (100% of the time)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="has_od.choices" Name="has_od" DataType="text" redcap:Variable="has_od">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sex_exchange_thirty.choices" Name="sex_exchange_thirty" DataType="text" redcap:Variable="sex_exchange_thirty">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="covid_vaccine.choices" Name="covid_vaccine" DataType="text" redcap:Variable="covid_vaccine">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Unknown/Refuse</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hep_a_vaccine.choices" Name="hep_a_vaccine" DataType="text" redcap:Variable="hep_a_vaccine">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Unknown/Refuse</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hep_b_vaccine.choices" Name="hep_b_vaccine" DataType="text" redcap:Variable="hep_b_vaccine">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Unknown/Refuse</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hiv_test_ever.choices" Name="hiv_test_ever" DataType="text" redcap:Variable="hiv_test_ever">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hiv_test_prior_result.choices" Name="hiv_test_prior_result" DataType="text" redcap:Variable="hiv_test_prior_result">
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Positive</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Negative</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hiv_test_tx.choices" Name="hiv_test_tx" DataType="boolean" redcap:Variable="hiv_test_tx">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hiv_test_today.choices" Name="hiv_test_today" DataType="boolean" redcap:Variable="hiv_test_today">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hiv_test_brand.choices" Name="hiv_test_brand" DataType="text" redcap:Variable="hiv_test_brand">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>OraQuick</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>SureCheck</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Clearview</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Other {hiv_brand_other}</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hiv_test_today_result.choices" Name="hiv_test_today_result" DataType="text" redcap:Variable="hiv_test_today_result">
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Positive</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Negative</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hiv_test_today_ltc.choices" Name="hiv_test_today_ltc" DataType="boolean" redcap:Variable="hiv_test_today_ltc">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_test_ever.choices" Name="hcv_test_ever" DataType="text" redcap:Variable="hcv_test_ever">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_test_prior_result.choices" Name="hcv_test_prior_result" DataType="text" redcap:Variable="hcv_test_prior_result">
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Positive</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Negative</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_test_tx.choices" Name="hcv_test_tx" DataType="boolean" redcap:Variable="hcv_test_tx">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_test_today.choices" Name="hcv_test_today" DataType="boolean" redcap:Variable="hcv_test_today">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_test_today_result.choices" Name="hcv_test_today_result" DataType="text" redcap:Variable="hcv_test_today_result">
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Positive</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Negative</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_test_today_ltc.choices" Name="hcv_test_today_ltc" DataType="boolean" redcap:Variable="hcv_test_today_ltc">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_rna_offered.choices" Name="hcv_rna_offered" DataType="boolean" redcap:Variable="hcv_rna_offered">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_rna_accepted.choices" Name="hcv_rna_accepted" DataType="boolean" redcap:Variable="hcv_rna_accepted">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hcv_rna_results.choices" Name="hcv_rna_results" DataType="text" redcap:Variable="hcv_rna_results">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Undetectable</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Detectable but unquantifiable</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Detectable and quantifiable</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="syphillis_test_ever.choices" Name="syphillis_test_ever" DataType="text" redcap:Variable="syphillis_test_ever">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="-999"><Decode><TranslatedText>Refused or don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="syphillis_result_prior.choices" Name="syphillis_result_prior" DataType="text" redcap:Variable="syphillis_result_prior">
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Positive</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Negative</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="syphillis_agree_today.choices" Name="syphillis_agree_today" DataType="boolean" redcap:Variable="syphillis_agree_today">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="syphillis_result_today.choices" Name="syphillis_result_today" DataType="text" redcap:Variable="syphillis_result_today">
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Positive</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Negative</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hear_about_exchange___1.choices" Name="hear_about_exchange___1" DataType="boolean" redcap:Variable="hear_about_exchange" redcap:CheckboxChoices="1, Word of mouth (friends, family, etc) | 2, Fliers | 3, Healthcare professional or referral (counselor, social worker, etc) | 4, Online | 5, Newspaper | 6, Other {hear_about_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hear_about_exchange___2.choices" Name="hear_about_exchange___2" DataType="boolean" redcap:Variable="hear_about_exchange" redcap:CheckboxChoices="1, Word of mouth (friends, family, etc) | 2, Fliers | 3, Healthcare professional or referral (counselor, social worker, etc) | 4, Online | 5, Newspaper | 6, Other {hear_about_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hear_about_exchange___3.choices" Name="hear_about_exchange___3" DataType="boolean" redcap:Variable="hear_about_exchange" redcap:CheckboxChoices="1, Word of mouth (friends, family, etc) | 2, Fliers | 3, Healthcare professional or referral (counselor, social worker, etc) | 4, Online | 5, Newspaper | 6, Other {hear_about_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hear_about_exchange___4.choices" Name="hear_about_exchange___4" DataType="boolean" redcap:Variable="hear_about_exchange" redcap:CheckboxChoices="1, Word of mouth (friends, family, etc) | 2, Fliers | 3, Healthcare professional or referral (counselor, social worker, etc) | 4, Online | 5, Newspaper | 6, Other {hear_about_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hear_about_exchange___5.choices" Name="hear_about_exchange___5" DataType="boolean" redcap:Variable="hear_about_exchange" redcap:CheckboxChoices="1, Word of mouth (friends, family, etc) | 2, Fliers | 3, Healthcare professional or referral (counselor, social worker, etc) | 4, Online | 5, Newspaper | 6, Other {hear_about_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hear_about_exchange___6.choices" Name="hear_about_exchange___6" DataType="boolean" redcap:Variable="hear_about_exchange" redcap:CheckboxChoices="1, Word of mouth (friends, family, etc) | 2, Fliers | 3, Healthcare professional or referral (counselor, social worker, etc) | 4, Online | 5, Newspaper | 6, Other {hear_about_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hear_about_exchange____999.choices" Name="hear_about_exchange____999" DataType="boolean" redcap:Variable="hear_about_exchange" redcap:CheckboxChoices="1, Word of mouth (friends, family, etc) | 2, Fliers | 3, Healthcare professional or referral (counselor, social worker, etc) | 4, Online | 5, Newspaper | 6, Other {hear_about_other} | -999, Refused or don&#039;t know">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="holding_meds.choices" Name="holding_meds" DataType="boolean" redcap:Variable="holding_meds">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="completed_by.choices" Name="completed_by" DataType="text" redcap:Variable="completed_by">
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Frankie</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>David</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Eddie</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>Chevel</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="21"><Decode><TranslatedText>Jimmie</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="24"><Decode><TranslatedText>MaryAnn</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="25"><Decode><TranslatedText>Donald</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="26"><Decode><TranslatedText>Chad</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="27"><Decode><TranslatedText>Darryl</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="28"><Decode><TranslatedText>Emilie</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="29"><Decode><TranslatedText>Naomi</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="30"><Decode><TranslatedText>Daniela Brennan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="31"><Decode><TranslatedText>Noby</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Emy</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Carolina</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Elisha</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="20"><Decode><TranslatedText>Aracelis</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="22"><Decode><TranslatedText>Belen</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="23"><Decode><TranslatedText>Arrow</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="32"><Decode><TranslatedText>Nonie</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="33"><Decode><TranslatedText>Marissa</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="34"><Decode><TranslatedText>Mariana</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="35"><Decode><TranslatedText>Victor</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="36"><Decode><TranslatedText>Shamika</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="miami_idea_exchange_enrollment_form_complete.choices" Name="miami_idea_exchange_enrollment_form_complete" DataType="text" redcap:Variable="miami_idea_exchange_enrollment_form_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>

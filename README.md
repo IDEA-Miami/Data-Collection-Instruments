@@ -8,14 +8,14 @@ bisque (https://www.hellobisque.com)
 - 
 -
 
-Qualtrics (https://www.qualtrics.com](https://www.qualtrics.com/)
+Qualtrics (https://www.qualtrics.com/)
 - 
 - 
 
-Microsoft Forms (https://www.forms.office.com](https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes)
+Microsoft Forms (https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes)
 -
 -
 
-Google Forms (https://www.](https://workspace.google.com/products/forms/)
+Google Forms (https://workspace.google.com/products/forms/)
 -
 -

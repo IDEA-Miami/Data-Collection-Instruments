@@ -1,0 +1,2110 @@
+{
+  "bisqVersion": 1,
+  "exportedAt": "2026-01-24T18:49:33.860Z",
+  "survey": {
+    "title": "participant_encounter_form",
+    "content": [
+      {
+        "id": "6ac667fe-a545-40ea-9339-6b53a6abfe7b",
+        "cards": [
+          {
+            "id": "f3159809-c1f9-4385-b655-8b07b69b5829",
+            "type": "question",
+            "choices": [
+              {
+                "id": "5020bdc8-9c64-415d-a44e-e47722547c87",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "01cb8529-3411-43d0-89ed-32bc751705b0",
+                "label": "<p>No</p>"
+              }
+            ],
+            "question": {
+              "id": "83884278-a369-4af1-9453-a6afec3b1779",
+              "label": "<p>Existing participant?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "forced"
+          },
+          {
+            "id": "3e81b08c-ba98-4d2a-b4e0-751dd23b0aba",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "f3159809-c1f9-4385-b655-8b07b69b5829",
+                      "selectedValues": [
+                        "5020bdc8-9c64-415d-a44e-e47722547c87"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "0d299a0e-a03d-485c-81a3-0db37ef0aad9",
+              "label": "<p>ID Code</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "forced"
+          },
+          {
+            "id": "85ae54fd-1a17-443e-bde4-debbd5123cc3",
+            "type": "question",
+            "choices": [
+              {
+                "id": "d5357188-c172-4191-be68-8cc03d26f597",
+                "label": "<p>Fixed site</p>"
+              },
+              {
+                "id": "356e35e0-6e7b-463a-b8d6-96cc629563d3",
+                "label": "<p>Mobile unit</p>"
+              }
+            ],
+            "question": {
+              "id": "4c7695f9-88da-487a-b99e-0edf4e0b063f",
+              "label": "<p>Location</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "forced"
+          },
+          {
+            "id": "587213e7-08a0-4875-827f-c0c41e1d95c7",
+            "type": "question",
+            "choices": [],
+            "question": {
+              "id": "8e4aa66d-b574-4b17-b3b2-d12990835fee",
+              "label": "<p>Encounter Date</p>"
+            },
+            "statements": [],
+            "optionLogic": [],
+            "questionType": "date_picker",
+            "parkedQuestion": {
+              "id": "8e4aa66d-b574-4b17-b3b2-d12990835fee",
+              "label": "<p>Encounter Date</p>"
+            },
+            "statementLogic": [],
+            "optionsWithText": [],
+            "exclusiveOptions": [],
+            "subChoiceExclusive": [],
+            "subChoicesWithText": [],
+            "responseRequirement": "forced"
+          },
+          {
+            "id": "e489a7b9-cf2e-4e8c-ae62-57013c25d413",
+            "type": "question",
+            "choices": [
+              {
+                "id": "323d8a2d-3974-4aa2-b560-04d8aca33e66",
+                "label": "<p>Britt</p>"
+              },
+              {
+                "id": "6a498f77-e15d-425f-8932-325983c68586",
+                "label": "<p>Volunteer</p>"
+              },
+              {
+                "id": "6ddb6ac1-f2b6-427a-b2f7-2511fec2b8c1",
+                "label": "<p>Other</p>"
+              }
+            ],
+            "question": {
+              "id": "f65c9f8d-afb1-4932-9d09-2cd7bb1f9ed7",
+              "label": "<p>Form Completed By</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          }
+        ],
+        "label": "Encounter Information",
+        "logic": "Show this block to everyone"
+      },
+      {
+        "id": "88b66f4c-e948-40b1-8045-994a071a6240",
+        "cards": [
+          {
+            "id": "12b71e64-67ae-4aa1-808d-6a2f99fb6065",
+            "type": "question",
+            "choices": [],
+            "question": {
+              "id": "b38b0cc8-2e26-4262-88cb-a0e366e97593",
+              "label": "<p>First & Middle Initials</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "6b2b8056-3147-4363-a332-d6968b76d270",
+            "type": "question",
+            "choices": [],
+            "question": {
+              "id": "8050608a-0bcb-4c38-9ff4-484f2ab45c57",
+              "label": "<p>Two Digit Day of Birth</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "68d718d8-ac41-46ac-bd06-8ae3d5fac4c3",
+            "type": "question",
+            "choices": [],
+            "question": {
+              "id": "58cdb267-41a0-4fa5-ba9a-7644ceba9711",
+              "label": "<p>Two Digit Birth Year</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "2007b150-cd52-458e-83e9-4652052b96a0",
+            "type": "question",
+            "choices": [
+              {
+                "id": "eef4245b-3419-403e-88b8-10cb589192fb",
+                "label": "<p>White</p>"
+              },
+              {
+                "id": "493ee436-e106-4554-9524-0c25d241cd36",
+                "label": "<p>Black or African American</p>"
+              },
+              {
+                "id": "70fcd8b7-f3a4-4085-9ab0-1eb5151da36d",
+                "label": "<p>Asian/Pacific Islander</p>"
+              },
+              {
+                "id": "2799af28-1ed8-4a65-848b-111ba0ea7330",
+                "label": "<p>Native American</p>"
+              },
+              {
+                "id": "f17e6ebf-7c75-4fa9-8729-eb0d34fbdd86",
+                "label": "<p>Multiracial</p>"
+              },
+              {
+                "id": "fb16113e-4efb-43bc-9660-b6c20064248a",
+                "label": "<p>Other</p>"
+              },
+              {
+                "id": "cfdbfdec-2597-43e5-8363-ce45fab4f5bd",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "47122c79-964f-4be5-baed-19f93db414e8",
+              "label": "<p>Race</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "d2ec5cc9-9039-4679-bcd4-d9ee23d9a4b9",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "2007b150-cd52-458e-83e9-4652052b96a0",
+                      "selectedValues": [
+                        "fb16113e-4efb-43bc-9660-b6c20064248a"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "4e3073d4-89bf-4eca-ad93-21bb3fece516",
+              "label": "<p>Other race</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "5c574c28-a5ca-4e0a-9160-dd591d17ef5e",
+            "type": "question",
+            "choices": [
+              {
+                "id": "70fefe61-00cd-42c4-912a-5cfa3b587442",
+                "label": "<p>Hispanic or Latino</p>"
+              },
+              {
+                "id": "d992e6b5-fdb4-458d-b9e0-022c9779658f",
+                "label": "<p>Not Hispanic or Latino</p>"
+              },
+              {
+                "id": "1a851db0-3aae-4f41-8b5e-5bace7f56dde",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "f5ce7a41-6e86-46a6-bf18-67812985d469",
+              "label": "<p>Ethnicity</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "875a7647-50d4-4dd4-a112-8dcd789aa083",
+            "type": "question",
+            "choices": [
+              {
+                "id": "71c1faf0-a101-4419-8635-066d368cc6b1",
+                "label": "<p>Male</p>"
+              },
+              {
+                "id": "9eb9f648-f351-489a-b1d5-68cd69ed7fa7",
+                "label": "<p>Female</p>"
+              },
+              {
+                "id": "6c4568de-2835-4405-933c-e7bf508e70e7",
+                "label": "<p>Intersex</p>"
+              },
+              {
+                "id": "7981db7a-3ddf-440c-818d-8d0190ef2183",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "ae6232b8-2d07-4cc2-b9cb-1a1aebaa98d6",
+              "label": "<p>Sex Assigned at Birth</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "a809b801-0815-41b8-80df-44539a8414aa",
+            "type": "question",
+            "choices": [
+              {
+                "id": "65dc0d08-ce77-4a41-a3ba-4c72e080ced1",
+                "label": "<p>Woman</p>"
+              },
+              {
+                "id": "2abbad04-8734-492d-b8e0-ff17febf3ea9",
+                "label": "<p>Man</p>"
+              },
+              {
+                "id": "37216f63-b346-4926-912f-90aca8d714f5",
+                "label": "<p>Genderqueer</p>"
+              },
+              {
+                "id": "df57c980-51de-486e-86f2-96a8c29398fb",
+                "label": "<p>Non-binary</p>"
+              },
+              {
+                "id": "c7748648-8b2e-4484-9955-f088ced7fb32",
+                "label": "<p>Agender</p>"
+              },
+              {
+                "id": "4c85d468-6ba7-4023-8499-1796c19da7d7",
+                "label": "<p>Not listed</p>"
+              },
+              {
+                "id": "02793b3b-dcd2-4c70-87ba-b22e5164342e",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "8a5ce1b7-7248-43ae-8df9-768daa08cc52",
+              "label": "<p>Gender Identity</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "069dfd0c-7b06-4257-a01f-2cda4f6c442c",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "a809b801-0815-41b8-80df-44539a8414aa",
+                      "selectedValues": [
+                        "4c85d468-6ba7-4023-8499-1796c19da7d7"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "5dfa02ef-b06c-4ac7-a728-81409cb21531",
+              "label": "<p>Other gender identity</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "648b35a9-9836-4e3f-9804-56e4a946828f",
+            "type": "question",
+            "choices": [
+              {
+                "id": "6b81b6a7-e03c-40e6-ba42-449225d191a3",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "e21c9a34-1729-475f-994d-34089b394aa3",
+                "label": "<p>No</p>"
+              },
+              {
+                "id": "eacdcc76-6c54-406d-bbd2-06375338882f",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "d8b24010-f9eb-480f-ac2b-c9bbf440c79b",
+              "label": "<p>Do you identify as transgender and/or as someone of trans experience?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "e58d6cd0-216c-4aff-af44-f3e178e1d3db",
+            "type": "question",
+            "choices": [
+              {
+                "id": "d884d9f2-2bc0-4294-b211-e55c638201bf",
+                "label": "<p>Rent/Own</p>"
+              },
+              {
+                "id": "692b8798-9462-46a7-9d03-705238db265e",
+                "label": "<p>Staying with a friend</p>"
+              },
+              {
+                "id": "939ff58e-0393-4e93-bcde-b8f2226b4911",
+                "label": "<p>Unhoused/motel</p>"
+              },
+              {
+                "id": "f4f15100-3ac8-46f7-be2a-c94ef5672ded",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "786a9bce-19ab-4ec6-8a90-9f78f8c0abfb",
+              "label": "<p>Housing Status</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "031b5b79-00f3-4a61-bb06-e735edeea69a",
+            "type": "question",
+            "choices": [
+              {
+                "id": "ca20d1f2-b64d-4bb0-b6ac-f0870125da9d",
+                "label": "<p>None</p>"
+              },
+              {
+                "id": "894b81a9-19aa-48f4-aaa3-ef5d409d1eb5",
+                "label": "<p>Carfentanil</p>"
+              },
+              {
+                "id": "06a845eb-900b-4558-abc8-49c477d8b951",
+                "label": "<p>Cocaine</p>"
+              },
+              {
+                "id": "604f13ac-5932-4a26-98da-ba86e4fbe15a",
+                "label": "<p>Crack</p>"
+              },
+              {
+                "id": "99fc2c36-92e3-4b9d-aec6-9b25a5bcaaf3",
+                "label": "<p>Fentanyl</p>"
+              },
+              {
+                "id": "5dfa9a5a-3dd7-4bc5-bdcc-2514f8054fef",
+                "label": "<p>Heroin</p>"
+              },
+              {
+                "id": "c02d5c1f-1550-4489-84c0-7b00d12dfa77",
+                "label": "<p>Hormones</p>"
+              },
+              {
+                "id": "1a05067c-ea36-4589-8dde-8d193eae60b8",
+                "label": "<p>Methamphetamine</p>"
+              },
+              {
+                "id": "d2221792-40b3-4eb0-80d2-9483d1fce612",
+                "label": "<p>Pain Killers</p>"
+              },
+              {
+                "id": "e1e0f856-54a8-4e1f-ab99-8cf10037c220",
+                "label": "<p>Prescription Opioids</p>"
+              },
+              {
+                "id": "983d6ecd-2b75-42ea-b71e-3e452befd104",
+                "label": "<p>Speedball</p>"
+              },
+              {
+                "id": "a412a3e1-bfd2-4931-bf14-51cd9a27057e",
+                "label": "<p>Steroids</p>"
+              },
+              {
+                "id": "0e3a19fb-5a8d-4185-95e1-62480d217fea",
+                "label": "<p>Xylazine/Tranq</p>"
+              },
+              {
+                "id": "7526d2b5-8073-492c-bf06-c5488a0ef49c",
+                "label": "<p>Molly/MDMA</p>"
+              },
+              {
+                "id": "121432a6-ce97-489c-bafa-709de039b7f9",
+                "label": "<p>Ketamine</p>"
+              },
+              {
+                "id": "7e94e7f1-7b1a-4059-9f5a-840e9a802f57",
+                "label": "<p>Other</p>"
+              },
+              {
+                "id": "c42800a6-eeeb-4fcd-9a5e-a1fbeb37247a",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "735ec656-540f-4eff-b266-e37d0f460be7",
+              "label": "<p>Drug Preference(s)</p>"
+            },
+            "statements": [],
+            "questionType": "check_all",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "4889b6a5-3860-4439-873a-e179ec7fa519",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "031b5b79-00f3-4a61-bb06-e735edeea69a",
+                      "selectedValues": [
+                        "7e94e7f1-7b1a-4059-9f5a-840e9a802f57"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "ecbb8d8d-67f1-4d8e-8621-e66d3841d857",
+              "label": "<p>Other drug preference</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "78c0db59-1e17-49b8-8d3c-1da4ceb0a6fb",
+            "type": "question",
+            "choices": [
+              {
+                "id": "86b980b3-fbbb-42c1-b925-a9f512729f2f",
+                "label": "<p>Inject</p>"
+              },
+              {
+                "id": "2680217d-25e1-48b3-8970-81029dc5466b",
+                "label": "<p>Smoke</p>"
+              },
+              {
+                "id": "f23b6947-e5ea-482e-9f6f-1747deaf92d6",
+                "label": "<p>Snort</p>"
+              },
+              {
+                "id": "9db54c08-de61-42ba-8057-6e2972536141",
+                "label": "<p>Other</p>"
+              },
+              {
+                "id": "39c1c518-9042-44b2-b13a-091143263e7c",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "c452a852-8c9e-42ba-a189-73a92417a8a7",
+              "label": "<p>Preferred Route(s) of Administration</p>"
+            },
+            "statements": [],
+            "questionType": "check_all",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "3d413dfc-b1fe-4ebd-b29b-123e6ecb5cfb",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "78c0db59-1e17-49b8-8d3c-1da4ceb0a6fb",
+                      "selectedValues": [
+                        "9db54c08-de61-42ba-8057-6e2972536141"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "8a6c0953-f0fd-4a21-beb8-56a53c0f57c7",
+              "label": "<p>Other administration route preference</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "requested"
+          }
+        ],
+        "label": "Demographics & Enrollment Information",
+        "logic": {
+          "groups": [
+            {
+              "type": "and",
+              "conditions": [
+                {
+                  "value": "",
+                  "_search": "",
+                  "operator": "equals",
+                  "sourceId": "f3159809-c1f9-4385-b655-8b07b69b5829",
+                  "selectedValues": [
+                    "01cb8529-3411-43d0-89ed-32bc751705b0"
+                  ]
+                }
+              ],
+              "conditionType": "and"
+            }
+          ]
+        }
+      },
+      {
+        "id": "caf64692-265c-4f8f-96fe-abf24c9630d1",
+        "cards": [
+          {
+            "id": "9c62995c-9856-4621-8cfc-6b752362a398",
+            "type": "question",
+            "choices": [
+              {
+                "id": "e959fbae-7ac7-4f25-8527-9a508e6a90b9",
+                "label": "<p>Participant</p>"
+              },
+              {
+                "id": "98bb390c-3b3c-41cd-832e-ea4bdee22e75",
+                "label": "<p>Other individuals</p>"
+              }
+            ],
+            "question": {
+              "id": "ab92e35a-df96-4e07-b934-f3e8a63afd0e",
+              "label": "<p>Who are services being provided for?</p>"
+            },
+            "statements": [],
+            "questionType": "check_all",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "14cffbca-1a31-43ca-84e3-3c778d1cc02e",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "9c62995c-9856-4621-8cfc-6b752362a398",
+                      "selectedValues": [
+                        "98bb390c-3b3c-41cd-832e-ea4bdee22e75"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "b2402667-fb82-4888-886c-c374b6535eb0",
+              "label": "<p>How many other individuals?</p>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+            "type": "question",
+            "choices": [
+              {
+                "id": "eb170497-733f-4167-b594-55a66705e695",
+                "label": "<p>Syringe access</p>"
+              },
+              {
+                "id": "9c495061-aae3-40f4-a3b1-31fbc1ee633c",
+                "label": "<p>Safer smoking supplies</p>"
+              },
+              {
+                "id": "643644bc-af78-40f7-b41a-aff0d4f19a1d",
+                "label": "<p>Naloxone</p>"
+              },
+              {
+                "id": "9435f89a-3e05-4d89-8d3a-f3450ef2a42b",
+                "label": "<p>Fentanyl test strips</p>"
+              },
+              {
+                "id": "fcd62e21-0d16-45aa-a1b9-c6748d182f47",
+                "label": "<p>Xylazine test strips</p>"
+              },
+              {
+                "id": "6aa447db-f596-4ead-b3d3-0c3f2a72dc7c",
+                "label": "<p>Safer sex supplies</p>"
+              },
+              {
+                "id": "9b798121-0672-40da-a4ea-5338a840f5f2",
+                "label": "<p>Wound care</p>"
+              },
+              {
+                "id": "a83514be-616a-4e27-893a-ca023771aa77",
+                "label": "<p>Safety education</p>"
+              },
+              {
+                "id": "639278d5-b912-4d3f-8198-9ff1a328ffc5",
+                "label": "<p>HIV testing</p>"
+              },
+              {
+                "id": "d1a1874d-9216-4ede-9ad7-0def591620b2",
+                "label": "<p>HCV testing</p>"
+              },
+              {
+                "id": "a4e2bdc5-4763-44c4-bfb2-8ee4445c13ac",
+                "label": "<p>STI testing</p>"
+              },
+              {
+                "id": "cb802f62-d184-4b7e-b470-4d34ac43eb97",
+                "label": "<p>MOUD</p>"
+              },
+              {
+                "id": "6b012f16-a2ee-4f25-a60b-992b8ebee6ab",
+                "label": "<p>Off-site or external referrals</p>"
+              }
+            ],
+            "question": {
+              "id": "3772520d-4a7d-4998-b8ed-c42ad7fa67f8",
+              "label": "<p>Please select all services being provided today.</p>"
+            },
+            "statements": [],
+            "questionType": "check_all",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "87332260-e803-4aba-bd39-7ad815a14132",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "6b012f16-a2ee-4f25-a60b-992b8ebee6ab"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "69523487-7b26-4d07-a344-f5c95848b3b6",
+                "label": "<p>MOUD</p>"
+              },
+              {
+                "id": "707127a9-97ba-4a2f-b5b1-1d8f8b2f004a",
+                "label": "<p>Peer support or treatment services</p>"
+              }
+            ],
+            "question": {
+              "id": "30061076-cc7c-43ef-a9c6-e6fc074d7905",
+              "label": "<p>Off-Site or External Referrals</p>"
+            },
+            "statements": [],
+            "questionType": "check_all",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "df6e695f-04b2-4324-a931-f134f7c81979",
+            "type": "text",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "9b798121-0672-40da-a4ea-5338a840f5f2"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "content": "<div class=\"rich-text-field-label\"><table style=\"border-collapse: collapse; width: 100%; height: 25px; border-width: 1px; background-color: rgb(255, 255, 255);\" border=\"1\"><colgroup><col style=\"width: 99.8582%;\"></colgroup> <tbody> <tr style=\"height: 25px;\"> <td style=\"height: 25px;\"> <h5 style=\"text-align: center;\"><span style=\"color: rgb(224, 62, 45);\">Wound Care Information</span></h5> </td> </tr> </tbody> </table></div>"
+          },
+          {
+            "id": "d2efdaf0-af4f-4345-8682-9fbdf20fdbf2",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "9b798121-0672-40da-a4ea-5338a840f5f2"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "913aa976-3527-4d4f-aefd-57a84dea8b60",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "cff74e8f-f489-49fe-86d6-d5afddb8a4b3",
+                "label": "<p>No</p>"
+              }
+            ],
+            "question": {
+              "id": "0fe787da-b80f-4936-9dd5-bd51a5122de7",
+              "label": "<p>Wound care supplies provided?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "f6adec49-c504-42fc-a907-05b377235dbd",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "9b798121-0672-40da-a4ea-5338a840f5f2"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "fbb1d669-ddd6-43a2-8bd1-e42dadab8699",
+              "label": "<p>Wound care notes.</p>"
+            },
+            "statements": [],
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "6a44c09c-817c-42d1-b3a4-26ad8762b23b",
+            "type": "text",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "643644bc-af78-40f7-b41a-aff0d4f19a1d",
+                        "9435f89a-3e05-4d89-8d3a-f3450ef2a42b",
+                        "fcd62e21-0d16-45aa-a1b9-c6748d182f47"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "content": "<div class=\"rich-text-field-label\"><table style=\"border-collapse: collapse; width: 100%; border-width: 1px; background-color: rgb(255, 255, 255);\" border=\"1\"><colgroup><col style=\"width: 99.8582%;\"></colgroup> <tbody> <tr> <td> <h5 style=\"text-align: center;\"><span style=\"color: rgb(224, 62, 45);\">Overdose & Drug Checking Information</span></h5> </td> </tr> </tbody> </table></div>"
+          },
+          {
+            "id": "0935699e-8e75-4063-b1bf-c44b47d31dfb",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "9435f89a-3e05-4d89-8d3a-f3450ef2a42b"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "9f67a95a-8d25-4fcb-8787-a1573828e1ae",
+              "label": "<div class=\"rich-text-field-label\"><p>How many <span style=\"color: #e03e2d;\">Fentanyl </span>test strips were provided?</p></div>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "3050ebf8-58f7-4e6e-afc0-979091a940b3",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "fcd62e21-0d16-45aa-a1b9-c6748d182f47"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "e17694ae-dd89-45d4-a7fe-43f9512a129d",
+              "label": "<div class=\"rich-text-field-label\"><p>How many <span style=\"color: #e03e2d;\">Xylazine</span> test strips were provided?</p></div>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "7d90fdec-af59-47bb-a3d4-3d88bb054d0c",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "643644bc-af78-40f7-b41a-aff0d4f19a1d"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "8d58a6f2-d2e7-47ec-a41d-2ce356fcdc90",
+              "label": "<div class=\"rich-text-field-label\"><p>How many <span style=\"color: #e03e2d;\">Narcan Nasal Spray</span> kits were provided?</p></div>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "af351393-0376-473e-9f1b-fa2cd0e124f6",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "643644bc-af78-40f7-b41a-aff0d4f19a1d"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "294a4cef-08ed-4b2f-9ad8-76b2a921e5a3",
+              "label": "<div class=\"rich-text-field-label\"><p>How many <span style=\"color: #e03e2d;\">Naloxone Intramuscular (IM)</span> kits were provided?</p></div>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "bb838e0e-d150-4b6a-b93d-f5b416c08942",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "643644bc-af78-40f7-b41a-aff0d4f19a1d"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "8733504e-bb60-4fbd-bfce-5c5e97521d85",
+                "label": "<p>Yes</p>",
+                "_parkedSubChoices": [
+                  {
+                    "id": "7ec4da5b-16eb-43dc-b694-40045e0afafc",
+                    "label": ""
+                  },
+                  {
+                    "id": "ac9a629b-f096-4cc2-948f-2133ec44f93f",
+                    "label": ""
+                  }
+                ]
+              },
+              {
+                "id": "5da9ee59-3d56-4e24-9635-ce2785807aa1",
+                "label": "<p>No</p>"
+              },
+              {
+                "id": "5c410dbf-a36c-4893-a1ec-a2b2d7798112",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "f6b6f7a5-6785-494b-9b20-0e137b149c8b",
+              "label": "<div class=\"rich-text-field-label\"><p><span style=\"color: #e03e2d;\">In the past month</span><span style=\"text-decoration: underline;\">,</span> have you witnessed an overdose?</p></div>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "optionsWithText": [],
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "6c8f9b87-deea-4bb3-910b-d17eea7995ac",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "bb838e0e-d150-4b6a-b93d-f5b416c08942",
+                      "selectedValues": [
+                        "8733504e-bb60-4fbd-bfce-5c5e97521d85"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "e1c760c7-919d-42fa-9a2b-d2e18f83cde9",
+              "label": "<div class=\"rich-text-field-label\"><p>How many <span style=\"color: #e03e2d;\">overdoses</span> did you witness?</p></div>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "da0d2d16-629a-45cc-bd78-115c6b7f9437",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "bb838e0e-d150-4b6a-b93d-f5b416c08942",
+                      "selectedValues": [
+                        "8733504e-bb60-4fbd-bfce-5c5e97521d85"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "9a90b2aa-e336-4cd2-8383-d161f87cab59",
+              "label": "<div class=\"rich-text-field-label\"><p>How many overdose <span style=\"color: #e03e2d;\">reversals</span> did you witness?</p></div>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "7580380f-e42a-4f78-9ffb-f9846d334a89",
+            "type": "text",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "eb170497-733f-4167-b594-55a66705e695"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "content": "<div class=\"rich-text-field-label\"><table style=\"border-collapse: collapse; width: 100%; border-width: 1px; background-color: rgb(255, 255, 255);\" border=\"1\"><colgroup><col style=\"width: 99.8582%;\"></colgroup> <tbody> <tr> <td> <h5 style=\"text-align: center;\"><span style=\"color: rgb(224, 62, 45);\">Syringe Services</span></h5> </td> </tr> </tbody> </table></div>"
+          },
+          {
+            "id": "4358f760-b83f-4f8c-b00b-2d9fab15a04b",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "eb170497-733f-4167-b594-55a66705e695"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "d819a712-f021-458a-80b5-3bd2e387fd18",
+              "label": "<p>Total Needles Returned</p>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "8f9e815f-abf6-4fb7-8dd8-24f757f737c4",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "eb170497-733f-4167-b594-55a66705e695"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "521ef4b2-ab9b-4aab-b5f6-84523ab03f30",
+              "label": "<p>Needles Distributed: Shorts</p>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "fc0c9bfe-8135-40c0-aabf-06b56f4b111d",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "eb170497-733f-4167-b594-55a66705e695"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [],
+            "question": {
+              "id": "114704a4-639e-4fa7-be63-12b72b00644e",
+              "label": "<p>Needles Distributed: Longs</p>"
+            },
+            "statements": [],
+            "textLength": "number",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "9ecf0e1b-1797-4d2b-a2d5-4512d670ec44",
+            "type": "text",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "639278d5-b912-4d3f-8198-9ff1a328ffc5"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "content": "<div class=\"rich-text-field-label\"><table style=\"border-collapse: collapse; width: 100%; border-width: 1px; background-color: rgb(255, 255, 255);\" border=\"1\"><colgroup><col style=\"width: 99.8582%;\"></colgroup> <tbody> <tr> <td> <h5 style=\"text-align: center;\"><span style=\"color: rgb(224, 62, 45);\">HIV Testing</span></h5> </td> </tr> </tbody> </table></div>"
+          },
+          {
+            "id": "5795ca6b-834d-4897-a595-3586391b96d8",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "639278d5-b912-4d3f-8198-9ff1a328ffc5"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "4e75a3a9-d8b9-4172-938c-7c34b20c6afb",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "51553eb5-f4d9-4b82-aa48-2a0a283f3e2c",
+                "label": "<p>No</p>"
+              },
+              {
+                "id": "c03c6c59-5caa-4457-9064-7e8c542cb9a7",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "21d2e5a4-3967-44d2-8c3d-f1bddaa86a77",
+              "label": "<div class=\"rich-text-field-label\"><p>Have you ever been tested for HIV?</p></div>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "c63a3555-efd5-40e0-92c1-eb66cc5510a1",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "5795ca6b-834d-4897-a595-3586391b96d8",
+                      "selectedValues": [
+                        "4e75a3a9-d8b9-4172-938c-7c34b20c6afb"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "6c56dd29-b5c5-4981-a0e1-0857ef6cecc7",
+                "label": "<p>Reactive / Positive</p>"
+              },
+              {
+                "id": "698fa514-9cc4-4a9a-b09e-42e7d7152c7f",
+                "label": "<p>Non-Reactive / Negative</p>"
+              },
+              {
+                "id": "b61ca505-6c64-4edd-8e58-b84d3a8b8ac8",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "7dfb0d02-672b-4d53-8ee7-85d91919086e",
+              "label": "<p>Result of Most Recent HIV Test</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "032f9456-2d98-45ce-92d9-7a1db1912806",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "c63a3555-efd5-40e0-92c1-eb66cc5510a1",
+                      "selectedValues": [
+                        "6c56dd29-b5c5-4981-a0e1-0857ef6cecc7"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "6eedb38d-9144-4c8e-84d7-faac9e8a15d5",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "81ba5511-6e80-43f6-8d7b-434c4b8cf095",
+                "label": "<p>No</p>"
+              }
+            ],
+            "question": {
+              "id": "aefc446b-0d5b-4ee2-a585-3ebd7bf2ea03",
+              "label": "<p>If reactive/positive, are you currently receiving HIV treatment ?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "bd501923-e464-4d26-8c46-70a26a9b7c54",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "639278d5-b912-4d3f-8198-9ff1a328ffc5"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "22e9a2af-33f7-49f1-8d89-d4c36d9d11e7",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "a9de68ad-00b0-42eb-9763-b81bf8b789f9",
+                "label": "<p>No</p>"
+              }
+            ],
+            "question": {
+              "id": "a537f6c9-27cb-46f4-95fd-090d86a02a9a",
+              "label": "<p>Agrees to HIV test today?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "2878a560-d56d-4fc0-a6ac-ac6e3b8f4049",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "bd501923-e464-4d26-8c46-70a26a9b7c54",
+                      "selectedValues": [
+                        "22e9a2af-33f7-49f1-8d89-d4c36d9d11e7"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "81ac4fd0-d8b7-4408-8cb4-02db65c4d05b",
+                "label": "<p>OraQuick</p>"
+              },
+              {
+                "id": "5348e825-2368-40e1-880e-bea8e5ce0cac",
+                "label": "<p>SureCheck</p>"
+              },
+              {
+                "id": "c1bd7820-2435-4f65-8072-5726746fa235",
+                "label": "<p>Clearview</p>"
+              },
+              {
+                "id": "0d3deb4c-fdf2-4d5c-b482-b00e033ad50d",
+                "label": "<p>Chembio</p>"
+              },
+              {
+                "id": "627f0575-2250-4dac-9ba7-fce9bf57caba",
+                "label": "<p>Insti</p>"
+              }
+            ],
+            "question": {
+              "id": "6aebd1a9-5ab4-403c-9501-e9438d6feead",
+              "label": "<p>HIV Rapid Test  Brand</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "f878078f-e195-4990-8baf-06e3ee06fe69",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "bd501923-e464-4d26-8c46-70a26a9b7c54",
+                      "selectedValues": [
+                        "22e9a2af-33f7-49f1-8d89-d4c36d9d11e7"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "2f1056b5-0da9-4a3e-ade8-706a2ef79ab3",
+                "label": "<p>Reactive / Positive</p>"
+              },
+              {
+                "id": "b7626eb4-27c2-4cef-80d4-7897bf9338d8",
+                "label": "<p>Non-Reactive / Negative</p>"
+              },
+              {
+                "id": "3c8bdadb-07d7-4be5-931f-0d52c0204d12",
+                "label": "<p>Inconclusive or invalid</p>"
+              }
+            ],
+            "question": {
+              "id": "caa95a9c-3742-44a0-bd58-b59732a316f6",
+              "label": "<p>HIV Rapid Result Today</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "d06d924e-1700-4f51-95b7-ca9980d45e36",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "f878078f-e195-4990-8baf-06e3ee06fe69",
+                      "selectedValues": [
+                        "2f1056b5-0da9-4a3e-ade8-706a2ef79ab3"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "14e8028b-84d0-4baa-b6ba-f5a0efb0635f",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "3e850656-47e2-4515-8cb6-d0c30330a692",
+                "label": "<p>No</p>"
+              },
+              {
+                "id": "a568c370-5d53-4f1a-845f-5031a4814d67",
+                "label": "<p>Pending</p>"
+              }
+            ],
+            "question": {
+              "id": "7f9e0e41-3422-46ed-bad4-3bc4abd6892a",
+              "label": "<p>Linked to HIV Care?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "6b66783d-3b78-40d9-b669-f63d9a0bc389",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "f878078f-e195-4990-8baf-06e3ee06fe69",
+                      "selectedValues": [
+                        "b7626eb4-27c2-4cef-80d4-7897bf9338d8"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "de892e3c-4485-4eb2-9f45-55da834c7069",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "9151bca0-ae15-4a18-b4e9-ac4c12df9ae2",
+                "label": "<p>No</p>"
+              },
+              {
+                "id": "e0cce187-a01b-4a3d-af12-423a0754cbea",
+                "label": "<p>Pending</p>"
+              }
+            ],
+            "question": {
+              "id": "a2c16efe-cad9-4762-b204-60db382e83b7",
+              "label": "<p>Linked to Comprehensive Preventative Services (CPS)?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "7311da49-333b-46db-8598-b3203a874640",
+            "type": "text",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "d1a1874d-9216-4ede-9ad7-0def591620b2"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "content": "<div class=\"rich-text-field-label\"><table style=\"border-collapse: collapse; width: 100%; border-width: 1px; background-color: rgb(255, 255, 255);\" border=\"1\"><colgroup><col style=\"width: 99.8582%;\"></colgroup> <tbody> <tr> <td> <h5 style=\"text-align: center;\"><span style=\"color: rgb(224, 62, 45);\">HCV Testing</span></h5> </td> </tr> </tbody> </table></div>"
+          },
+          {
+            "id": "d40c3b0e-65a6-4314-b860-59c0fa76baad",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "d1a1874d-9216-4ede-9ad7-0def591620b2"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "1617d474-031d-4507-ac3d-bd791e0362d7",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "6d86d28b-0376-4851-8cbc-1659de62fda6",
+                "label": "<p>No</p>"
+              },
+              {
+                "id": "9fc41954-5d73-4672-b9e2-56b611b55723",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "38c64735-0156-4366-9e54-1218989d2fb4",
+              "label": "<p>Have you ever been tested for Hepatitis C (HCV)?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "5bae5279-3565-4d0d-8581-d785330757c8",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "d40c3b0e-65a6-4314-b860-59c0fa76baad",
+                      "selectedValues": [
+                        "1617d474-031d-4507-ac3d-bd791e0362d7"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "d3c290e9-b325-4344-a55e-a5e59c34e077",
+                "label": "<p>Reactive / Positive</p>"
+              },
+              {
+                "id": "17353e01-8688-4adb-8ffd-86ad6cc103a6",
+                "label": "<p>Non-Reactive / Negative</p>"
+              },
+              {
+                "id": "f35c6b7f-0fe7-4db4-9e37-b96d0829f7cf",
+                "label": "<p>Refused or don't know</p>"
+              }
+            ],
+            "question": {
+              "id": "a909deb0-14b2-4ecd-bc35-52c066449303",
+              "label": "<p>Result of Most Recent HCV Test</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "6d220d22-3b7c-41f1-8c04-9aa91a384a1e",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "5bae5279-3565-4d0d-8581-d785330757c8",
+                      "selectedValues": [
+                        "d3c290e9-b325-4344-a55e-a5e59c34e077"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "d150e12e-2028-421d-b71f-4c9710f30479",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "e1ba9fde-68c3-4594-95df-8f5067bd80fb",
+                "label": "<p>No</p>"
+              }
+            ],
+            "question": {
+              "id": "f841170f-24a7-486d-9bc8-1055dcc21b5c",
+              "label": "<p>If positive, did you receive hepatitis C (HCV) treatment?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "a2f8131b-c3de-4c47-b393-307775ea6b1e",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "contains",
+                      "sourceId": "0f7c7610-d7c7-41ad-972f-5b8add95e462",
+                      "selectedValues": [
+                        "d1a1874d-9216-4ede-9ad7-0def591620b2"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "a9bb8d63-e342-4384-bba9-6498e6f8b5d6",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "8d6844f7-fd7a-4ca5-a7d8-d1e355d256df",
+                "label": "<p>No</p>"
+              }
+            ],
+            "question": {
+              "id": "4804b5dd-8626-4408-a375-3b9d3620521d",
+              "label": "<p>Agrees to HCV test today?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "0d05d0cb-e57d-4742-9406-842aa218f611",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "a2f8131b-c3de-4c47-b393-307775ea6b1e",
+                      "selectedValues": [
+                        "a9bb8d63-e342-4384-bba9-6498e6f8b5d6"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "6976cfbc-c107-45e4-86b8-a5f50056f94f",
+                "label": "<p>Reactive / Positive</p>"
+              },
+              {
+                "id": "d7c5a7f0-e039-48bf-a91e-990d7e82760c",
+                "label": "<p>Non-Reactive / Negative</p>"
+              },
+              {
+                "id": "d77450a7-10b3-4b86-bd2d-f29b456638d2",
+                "label": "<p>Inconclusive or invalid</p>"
+              }
+            ],
+            "question": {
+              "id": "f1009690-2751-47a1-97b8-b53e0200d26a",
+              "label": "<p>HCV Test Result Today</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "7ba2dab6-f4f9-4235-8252-a2a2e62b3f62",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "0d05d0cb-e57d-4742-9406-842aa218f611",
+                      "selectedValues": [
+                        "6976cfbc-c107-45e4-86b8-a5f50056f94f"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "e90cd445-0377-4482-a265-b0201625265b",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "f625c721-e463-4dcc-99af-0c346ddaa3a0",
+                "label": "<p>No</p>"
+              },
+              {
+                "id": "49af3ced-dde1-4cc6-a913-69a1b5ede437",
+                "label": "<p>Pending</p>"
+              }
+            ],
+            "question": {
+              "id": "8793f070-fc1f-40b1-ba49-0e30ea2f441d",
+              "label": "<p>Linked to HCV Care?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "4937d518-a397-4ba7-a7cb-3a8226763806",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "0d05d0cb-e57d-4742-9406-842aa218f611",
+                      "selectedValues": [
+                        "d7c5a7f0-e039-48bf-a91e-990d7e82760c"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "cfdd6bc8-3eb2-4f03-86fc-127f950e02b4",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "fe3e8e2d-93ed-4dec-a28b-5a8a88611eae",
+                "label": "<p>No</p>"
+              },
+              {
+                "id": "8f0a488b-cf34-431c-bfef-24cf70417bdc",
+                "label": "<p>Pending</p>"
+              }
+            ],
+            "question": {
+              "id": "a2a929ab-576e-4bd3-ac75-06b01a6cb0c8",
+              "label": "<p>Linked to Comprehensive Preventative Services (CPS)?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "066d381e-76be-4731-a86b-e31d637c60b4",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "0d05d0cb-e57d-4742-9406-842aa218f611",
+                      "selectedValues": [
+                        "6976cfbc-c107-45e4-86b8-a5f50056f94f"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "166451fd-3745-4da8-8be2-b54102196900",
+                "label": "<p>Yes</p>"
+              },
+              {
+                "id": "cd65f2fd-0d7a-4431-a3cc-4689f944fd04",
+                "label": "<p>No</p>"
+              }
+            ],
+            "question": {
+              "id": "eb88f82a-b926-4c79-8d70-6899448e541e",
+              "label": "<p>Agrees to HCV RNA test today?</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          },
+          {
+            "id": "4647a5ba-b2de-4110-9600-18042e7876c1",
+            "type": "question",
+            "logic": {
+              "groups": [
+                {
+                  "type": "and",
+                  "conditions": [
+                    {
+                      "value": "",
+                      "_search": "",
+                      "operator": "equals",
+                      "sourceId": "066d381e-76be-4731-a86b-e31d637c60b4",
+                      "selectedValues": [
+                        "166451fd-3745-4da8-8be2-b54102196900"
+                      ]
+                    }
+                  ],
+                  "conditionType": "and"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "id": "26c00436-c0a5-4938-acbb-207e6c89f264",
+                "label": "<p>HCV Detected</p>"
+              },
+              {
+                "id": "c114b937-0020-4ec3-9608-30b93f7ee0d0",
+                "label": "<p>HCV Not Detected</p>"
+              },
+              {
+                "id": "f4009f74-0f62-4efe-9253-21e89557fa10",
+                "label": "<p>Inconclusive or invalid</p>"
+              }
+            ],
+            "question": {
+              "id": "e3d7729c-b92a-46c6-b588-5bdb1c71a87f",
+              "label": "<p>HCV RNA Result</p>"
+            },
+            "statements": [],
+            "questionType": "multiple_choice",
+            "responseRequirement": "requested"
+          }
+        ],
+        "label": "Services Provided",
+        "logic": "Show this block to everyone"
+      },
+      {
+        "id": "ef69311d-2e9c-42f6-b4c0-77fe5ae40cc0",
+        "cards": [
+          {
+            "id": "8dfba569-37fd-4531-baea-4a9b4fb72bc4",
+            "type": "question",
+            "choices": [],
+            "question": {
+              "id": "7aefef91-4a0f-42bb-ad6c-1e8a0ef716c7",
+              "label": "<div class=\"rich-text-field-label\"><p>Encounter Notes<br><br><em><span style=\"font-weight: normal;\"><span style=\"color: #890015;\">Reminder!</span> No identifying information should be included here.</span></em></p></div>"
+            },
+            "statements": [],
+            "textLength": "long",
+            "questionType": "text",
+            "responseRequirement": "requested"
+          }
+        ],
+        "label": "Additional Information",
+        "logic": "Show this block to everyone"
+      }
+    ],
+    "intro_content": "<p></p>",
+    "thank_you_content": "<p></p>",
+    "render_settings": {
+      "logo": {
+        "url": null,
+        "path": null,
+        "size": "medium",
+        "position": null
+      },
+      "button_color": "#6366f1",
+      "questionRenderStyles": {
+        "85ae54fd-1a17-443e-bde4-debbd5123cc3": {
+          "renderStyle": "dropdown"
+        },
+        "e489a7b9-cf2e-4e8c-ae62-57013c25d413": {
+          "renderStyle": "dropdown"
+        }
+      }
+    },
+    "embedded_data_fields": []
+  },
+  "translations": [
+    {
+      "locale": "es-MX",
+      "key": "survey.intro",
+      "value": "<p>sdfdsaf</p>",
+      "status": "manual"
+    }
+  ]
+}
